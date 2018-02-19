@@ -1,0 +1,60 @@
+V "GNAT Lib v2015"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U newton_ada%b		newton_ada.adb		a0f223b5 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-flteio.ads		20150506105329 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiflio.ads		20150506105327 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D newton_ada.adb	20160922091102 04ae42dc newton_ada%b
+D system.ads		20150506105329 1d274481 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+D text_io.ads		20150506105330 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 12|4r6 4r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 12|4w10 4r33
+X 7 a-textio.ads
+166U14*New_Line 12|35s3
+242U14*Put 12|33s3 38s3 42s3 44s3
+X 8 a-tiflio.ads
+57U14*Get 12|39s3[3|20]
+68U14*Put 12|34s3[3|20] 43s3[3|20] 45s3[3|20]
+X 12 newton_ada.adb
+5U11*newton_ada 5b11 46l5 46t15
+6f3 epsilon{float} 25r28
+18V11 newton{float} 18b11 18>20 28l6 28t12 34s7 45s7
+18f20 Fx{float} 24r17
+19f4 a{float} 23r15 24m5 24r15 24r20 25r18 27r11
+20f4 avanta{float} 23m5 25r20
+30f2 x{float} 39m7 40r13 43r7 45r14
+X 25 text_io.ads
+24K9*Text_IO=24:29 12|3w6 3r19
+

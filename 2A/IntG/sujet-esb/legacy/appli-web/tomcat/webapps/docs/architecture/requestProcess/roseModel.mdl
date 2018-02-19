@@ -1,0 +1,2323 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.6.0109.2314"
+    charSet    	0)
+
+(object Design "Logical View"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3DFDF6CE0337"
+    defaults   	(object defaults
+	rightMargin 	0.250000
+	leftMargin 	0.250000
+	topMargin  	0.250000
+	bottomMargin 	0.500000
+	pageOverlap 	0.250000
+	clipIconLabels 	TRUE
+	autoResize 	TRUE
+	snapToGrid 	TRUE
+	gridX      	16
+	gridY      	16
+	defaultFont 	(object Font
+	    size       	10
+	    face       	"Arial"
+	    bold       	FALSE
+	    italics    	FALSE
+	    underline  	FALSE
+	    strike     	FALSE
+	    color      	0
+	    default_color 	TRUE)
+	showMessageNum 	1
+	showClassOfObject 	TRUE
+	notation   	"Unified")
+    root_usecase_package 	(object Class_Category "Use Case View"
+	quid       	"3DFDF6CE0369"
+	exportControl 	"Public"
+	global     	TRUE
+	logical_models 	(list unit_reference_list)
+	logical_presentations 	(list unit_reference_list
+	    (object UseCaseDiagram "Main"
+		quid       	"3DFDF6D201FE"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    root_category 	(object Class_Category "Logical View"
+	quid       	"3DFDF6CE0338"
+	exportControl 	"Public"
+	global     	TRUE
+	subsystem  	"Component View"
+	quidu      	"3DFDF6CE036A"
+	logical_models 	(list unit_reference_list
+	    (object Class_Category "org.apache.catalina"
+		quid       	"3E42DE8D0082"
+		visible_categories 	(list visibility_relationship_list
+		    (object Visibility_Relationship
+			quid       	"3E42DEF601EB"
+			supplier   	"Logical View::org.apache.tomcat.util"
+			quidu      	"3E42DEDF01F2")
+		    (object Visibility_Relationship
+			quid       	"3E42DF700060"
+			supplier   	"Logical View::org.apache.coyote"
+			quidu      	"3E42DE9F0132")
+		    (object Visibility_Relationship
+			quid       	"3E43D165039C"
+			supplier   	"Logical View::org.apache.naming"
+			quidu      	"3E43D1580339"))
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list
+		    (object Class_Category "ant"
+			quid       	"3E42DFBB037F"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43CFF7020F"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "authenticator"
+			quid       	"3E42DFC702B4"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D03C0395"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340")
+			    (object Visibility_Relationship
+				quid       	"3E43D03F01C2"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43D043024A"
+				supplier   	"Logical View::org.apache.catalina::valves"
+				quidu      	"3E42E02D035B"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "connector"
+			quid       	"3E42DFCF036A"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D07E017D"
+				supplier   	"Logical View::org.apache.catalina::session"
+				quidu      	"3E42E00C026D"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "core"
+			quid       	"3E42DFD603BA"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D19E01A9"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340")
+			    (object Visibility_Relationship
+				quid       	"3E43D1A10185"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43D1CE007C"
+				supplier   	"Logical View::org.apache.catalina::connector"
+				quidu      	"3E42DFCF036A")
+			    (object Visibility_Relationship
+				quid       	"3E43D1D800D0"
+				supplier   	"Logical View::org.apache.catalina::security"
+				quidu      	"3E42E00100D7")
+			    (object Visibility_Relationship
+				quid       	"3E43D25C031F"
+				supplier   	"Logical View::org.apache.catalina::mbean"
+				quidu      	"3E42DFF10188")
+			    (object Visibility_Relationship
+				quid       	"3E43D260028E"
+				supplier   	"Logical View::org.apache.catalina::startup"
+				quidu      	"3E42E01E00EC")
+			    (object Visibility_Relationship
+				quid       	"3E43D26A015C"
+				supplier   	"Logical View::org.apache.catalina::session"
+				quidu      	"3E42E00C026D")
+			    (object Visibility_Relationship
+				quid       	"3E43D2830271"
+				supplier   	"Logical View::org.apache.catalina::valves"
+				quidu      	"3E42E02D035B")
+			    (object Visibility_Relationship
+				quid       	"3E43D2C80248"
+				supplier   	"Logical View::org.apache.catalina::net"
+				quidu      	"3E42DFF70227")
+			    (object Visibility_Relationship
+				quid       	"3E43D2D6002B"
+				supplier   	"Logical View::org.apache.catalina::loader"
+				quidu      	"3E43D2D002D6")
+			    (object Visibility_Relationship
+				quid       	"3E43D3D300F7"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "deploy"
+			quid       	"3E42DFDC0340"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D32001B8"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "launcher"
+			quid       	"3E42DFE2033F"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "logger"
+			quid       	"3E42DFEC0285"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "mbean"
+			quid       	"3E42DFF10188"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D49101A5"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340")
+			    (object Visibility_Relationship
+				quid       	"3E43D4C6027D"
+				supplier   	"Logical View::org.apache.catalina::core"
+				quidu      	"3E42DFD603BA")
+			    (object Visibility_Relationship
+				quid       	"3E43D4FB008F"
+				supplier   	"Logical View::org.apache.catalina::session"
+				quidu      	"3E42E00C026D")
+			    (object Visibility_Relationship
+				quid       	"3E43D50000BE"
+				supplier   	"Logical View::org.apache.catalina::valves"
+				quidu      	"3E42E02D035B")
+			    (object Visibility_Relationship
+				quid       	"3E43D5080278"
+				supplier   	"Logical View::org.apache.catalina::realm"
+				quidu      	"3E42DFFA00AE")
+			    (object Visibility_Relationship
+				quid       	"3E43D55A0258"
+				supplier   	"Logical View::org.apache.catalina::logger"
+				quidu      	"3E42DFEC0285")
+			    (object Visibility_Relationship
+				quid       	"3E43D56000D0"
+				supplier   	"Logical View::org.apache.catalina::authenticator"
+				quidu      	"3E42DFC702B4"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "net"
+			quid       	"3E42DFF70227"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D6390371"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "realm"
+			quid       	"3E42DFFA00AE"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D69F0133"
+				supplier   	"Logical View::org.apache.catalina::core"
+				quidu      	"3E42DFD603BA")
+			    (object Visibility_Relationship
+				quid       	"3E43D6A10353"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43D70E00E2"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339")
+			    (object Visibility_Relationship
+				quid       	"3E43D72302D7"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "security"
+			quid       	"3E42E00100D7"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D74D007F"
+				supplier   	"Logical View::org.apache.catalina::startup"
+				quidu      	"3E42E01E00EC")
+			    (object Visibility_Relationship
+				quid       	"3E43D76B0371"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "servlets"
+			quid       	"3E42E00502DB"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D82702E5"
+				supplier   	"Logical View::org.apache.tomcat.util"
+				quidu      	"3E42DEDF01F2")
+			    (object Visibility_Relationship
+				quid       	"3E43D82A02CC"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43D82D0244"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "session"
+			quid       	"3E42E00C026D"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D8770344"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "ssi"
+			quid       	"3E42E01002C3"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D8F902B5"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "startup"
+			quid       	"3E42E01E00EC"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D9150251"
+				supplier   	"Logical View::org.apache.catalina::logger"
+				quidu      	"3E42DFEC0285")
+			    (object Visibility_Relationship
+				quid       	"3E43D919018F"
+				supplier   	"Logical View::org.apache.catalina::security"
+				quidu      	"3E42E00100D7")
+			    (object Visibility_Relationship
+				quid       	"3E43D946000D"
+				supplier   	"Logical View::org.apache.catalina::core"
+				quidu      	"3E42DFD603BA")
+			    (object Visibility_Relationship
+				quid       	"3E43D95E012A"
+				supplier   	"Logical View::org.apache.catalina::loader"
+				quidu      	"3E43D2D002D6")
+			    (object Visibility_Relationship
+				quid       	"3E43D9960315"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43D99902BF"
+				supplier   	"Logical View::org.apache.catalina::valves"
+				quidu      	"3E42E02D035B")
+			    (object Visibility_Relationship
+				quid       	"3E43D99C0147"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340")
+			    (object Visibility_Relationship
+				quid       	"3E43D9DA0114"
+				supplier   	"Logical View::org.apache.catalina::net"
+				quidu      	"3E42DFF70227")
+			    (object Visibility_Relationship
+				quid       	"3E43D9F402F2"
+				supplier   	"Logical View::org.apache.catalina::realm"
+				quidu      	"3E42DFFA00AE"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "user"
+			quid       	"3E42E0220174"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43DB240227"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43DB31009F"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "util"
+			quid       	"3E42E0260184"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43DB85017C"
+				supplier   	"Logical View::org.apache.catalina::core"
+				quidu      	"3E42DFD603BA")
+			    (object Visibility_Relationship
+				quid       	"3E43DB88016C"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "valves"
+			quid       	"3E42E02D035B"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43DC2B0257"
+				supplier   	"Logical View::org.apache.catalina::util"
+				quidu      	"3E42E0260184")
+			    (object Visibility_Relationship
+				quid       	"3E43DD3E0271"
+				supplier   	"Logical View::org.apache.catalina::deploy"
+				quidu      	"3E42DFDC0340")
+			    (object Visibility_Relationship
+				quid       	"3E43DD4102CF"
+				supplier   	"Logical View::org.apache.catalina::connector"
+				quidu      	"3E42DFCF036A")
+			    (object Visibility_Relationship
+				quid       	"3E43DDDE00B8"
+				supplier   	"Logical View::org.apache.catalina::core"
+				quidu      	"3E42DFD603BA"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "loader"
+			quid       	"3E43D2D002D6"
+			visible_categories 	(list visibility_relationship_list
+			    (object Visibility_Relationship
+				quid       	"3E43D3CF00F2"
+				supplier   	"Logical View::org.apache.naming"
+				quidu      	"3E43D1580339"))
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list)))
+		logical_presentations 	(list unit_reference_list
+		    (object ClassDiagram "Main"
+			quid       	"3E42DFB6010B"
+			title      	"Main"
+			zoom       	100
+			max_height 	28350
+			max_width  	21600
+			origin_x   	0
+			origin_y   	0
+			items      	(list diagram_item_list
+			    (object CategoryView "Logical View::org.apache.catalina::ant" @1
+				location   	(2208, 1504)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@1
+				    location   	(2064, 1420)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"ant")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFBB037F"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::authenticator" @2
+				location   	(192, 2000)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@2
+				    location   	(48, 1916)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"authenticator")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFC702B4"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::connector" @3
+				location   	(464, 1328)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@3
+				    location   	(320, 1244)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"connector")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFCF036A"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::core" @4
+				location   	(2224, 800)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@4
+				    location   	(2080, 716)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"core")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFD603BA"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::deploy" @5
+				location   	(240, 160)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@5
+				    location   	(96, 76)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"deploy")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFDC0340"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::launcher" @6
+				location   	(1776, 2480)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@6
+				    location   	(1632, 2396)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"launcher")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFE2033F"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::logger" @7
+				location   	(752, 128)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@7
+				    location   	(608, 44)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"logger")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFEC0285"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::mbean" @8
+				location   	(2208, 1216)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@8
+				    location   	(2064, 1132)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"mbean")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFF10188"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::net" @9
+				location   	(1056, 2496)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@9
+				    location   	(912, 2412)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"net")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFF70227"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::realm" @10
+				location   	(1248, 112)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@10
+				    location   	(1104, 28)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"realm")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DFFA00AE"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::security" @11
+				location   	(304, 2496)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@11
+				    location   	(160, 2412)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"security")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E00100D7"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::servlets" @12
+				location   	(2096, 1888)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@12
+				    location   	(1952, 1804)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"servlets")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E00502DB"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::session" @13
+				location   	(432, 1696)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@13
+				    location   	(288, 1612)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"session")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E00C026D"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::ssi" @14
+				location   	(672, 2480)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@14
+				    location   	(528, 2393)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"ssi")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E01002C3"
+				width      	301
+				height     	187)
+			    (object CategoryView "Logical View::org.apache.catalina::startup" @15
+				location   	(1088, 832)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@15
+				    location   	(944, 748)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"startup")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E01E00EC"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::user" @16
+				location   	(1424, 2496)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@16
+				    location   	(1280, 2412)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"user")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E0220174"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::util" @17
+				location   	(1312, 1872)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@17
+				    location   	(1168, 1788)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"util")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E0260184"
+				width      	300
+				height     	180)
+			    (object CategoryView "Logical View::org.apache.catalina::valves" @18
+				location   	(304, 704)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@18
+				    location   	(160, 620)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"valves")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42E02D035B"
+				width      	300
+				height     	180)
+			    (object ImportView "" @19
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43CFF7020F"
+				client     	@1
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @20
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D07E017D"
+				client     	@3
+				supplier   	@13
+				line_style 	0)
+			    (object CategoryView "Logical View::org.apache.catalina::loader" @21
+				location   	(2240, 416)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@21
+				    location   	(2096, 332)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"loader")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E43D2D002D6"
+				width      	300
+				height     	180)
+			    (object ImportView "" @22
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D32001B8"
+				client     	@5
+				supplier   	@17
+				line_style 	0)
+			    (object CategoryView "Logical View::org.apache.naming" @23
+				location   	(1872, 96)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@23
+				    location   	(1699, 12)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	346
+				    justify    	0
+				    label      	"org.apache.naming")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E43D1580339"
+				width      	358
+				height     	180)
+			    (object ImportView "" @24
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D3CF00F2"
+				client     	@21
+				supplier   	@23
+				line_style 	0)
+			    (object ImportView "" @25
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D6390371"
+				client     	@9
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @26
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D69F0133"
+				client     	@10
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @27
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D6A10353"
+				client     	@10
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @28
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D70E00E2"
+				client     	@10
+				supplier   	@23
+				line_style 	0)
+			    (object ImportView "" @29
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D72302D7"
+				client     	@10
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @30
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D69F0133"
+				client     	@10
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @31
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D74D007F"
+				client     	@11
+				supplier   	@15
+				line_style 	0)
+			    (object ImportView "" @32
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D76B0371"
+				client     	@11
+				supplier   	@17
+				line_style 	0)
+			    (object CategoryView "Logical View::org.apache.tomcat.util" @33
+				location   	(2096, 2224)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@33
+				    location   	(1923, 2140)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	346
+				    justify    	0
+				    label      	"org.apache.tomcat.util")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"3E42DEDF01F2"
+				width      	358
+				height     	180)
+			    (object ImportView "" @34
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D8770344"
+				client     	@13
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @35
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D8F902B5"
+				client     	@14
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @36
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DB240227"
+				client     	@16
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @37
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DB31009F"
+				client     	@16
+				supplier   	@23
+				line_style 	0)
+			    (object ImportView "" @38
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DB85017C"
+				client     	@17
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @39
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DB88016C"
+				client     	@17
+				supplier   	@23
+				line_style 	0)
+			    (object ImportView "" @40
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D82702E5"
+				client     	@12
+				supplier   	@33
+				line_style 	0)
+			    (object ImportView "" @41
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D82A02CC"
+				client     	@12
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @42
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D82D0244"
+				client     	@12
+				supplier   	@23
+				vertices   	(list Points
+				    (2060, 1743)
+				    (1746, 447)
+				    (1838, 186))
+				line_style 	0)
+			    (object ImportView "" @43
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D919018F"
+				client     	@15
+				supplier   	@11
+				line_style 	0)
+			    (object ImportView "" @44
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D946000D"
+				client     	@15
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @45
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D95E012A"
+				client     	@15
+				supplier   	@21
+				line_style 	0)
+			    (object ImportView "" @46
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D95E012A"
+				client     	@15
+				supplier   	@21
+				line_style 	0)
+			    (object ImportView "" @47
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D9960315"
+				client     	@15
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @48
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D99902BF"
+				client     	@15
+				supplier   	@18
+				line_style 	0)
+			    (object ImportView "" @49
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D99C0147"
+				client     	@15
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @50
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D946000D"
+				client     	@15
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @51
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D9150251"
+				client     	@15
+				supplier   	@7
+				line_style 	0)
+			    (object ImportView "" @52
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D9DA0114"
+				client     	@15
+				supplier   	@9
+				line_style 	0)
+			    (object ImportView "" @53
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D9F402F2"
+				client     	@15
+				supplier   	@10
+				line_style 	0)
+			    (object ImportView "" @54
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D9960315"
+				client     	@15
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @55
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D946000D"
+				client     	@15
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @56
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D99C0147"
+				client     	@15
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @57
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D49101A5"
+				client     	@8
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @58
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D4C6027D"
+				client     	@8
+				supplier   	@4
+				line_style 	0)
+			    (object ImportView "" @59
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D4FB008F"
+				client     	@8
+				supplier   	@13
+				line_style 	0)
+			    (object ImportView "" @60
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D50000BE"
+				client     	@8
+				supplier   	@18
+				vertices   	(list Points
+				    (2057, 1216)
+				    (1278, 1216)
+				    (454, 783))
+				line_style 	0)
+			    (object ImportView "" @61
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D5080278"
+				client     	@8
+				supplier   	@10
+				line_style 	0)
+			    (object ImportView "" @62
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D55A0258"
+				client     	@8
+				supplier   	@7
+				line_style 	0)
+			    (object ImportView "" @63
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D56000D0"
+				client     	@8
+				supplier   	@2
+				line_style 	0)
+			    (object ImportView "" @64
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D19E01A9"
+				client     	@4
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @65
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D1A10185"
+				client     	@4
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @66
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D1CE007C"
+				client     	@4
+				supplier   	@3
+				line_style 	0)
+			    (object ImportView "" @67
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D1D800D0"
+				client     	@4
+				supplier   	@11
+				vertices   	(list Points
+				    (2081, 890)
+				    (959, 1616)
+				    (409, 2351))
+				line_style 	0)
+			    (object ImportView "" @68
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D25C031F"
+				client     	@4
+				supplier   	@8
+				line_style 	0)
+			    (object ImportView "" @69
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D260028E"
+				client     	@4
+				supplier   	@15
+				line_style 	0)
+			    (object ImportView "" @70
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D26A015C"
+				client     	@4
+				supplier   	@13
+				line_style 	0)
+			    (object ImportView "" @71
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D2830271"
+				client     	@4
+				supplier   	@18
+				line_style 	0)
+			    (object ImportView "" @72
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D2C80248"
+				client     	@4
+				supplier   	@9
+				line_style 	0)
+			    (object ImportView "" @73
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D2D6002B"
+				client     	@4
+				supplier   	@21
+				line_style 	0)
+			    (object ImportView "" @74
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D3D300F7"
+				client     	@4
+				supplier   	@23
+				line_style 	0)
+			    (object ImportView "" @75
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D03C0395"
+				client     	@2
+				supplier   	@5
+				vertices   	(list Points
+				    (171, 1855)
+				    (16, 766)
+				    (205, 250))
+				line_style 	0)
+			    (object ImportView "" @76
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D03F01C2"
+				client     	@2
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @77
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43D043024A"
+				client     	@2
+				supplier   	@18
+				line_style 	0)
+			    (object ImportView "" @78
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DC2B0257"
+				client     	@18
+				supplier   	@17
+				line_style 	0)
+			    (object ImportView "" @79
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DD3E0271"
+				client     	@18
+				supplier   	@5
+				line_style 	0)
+			    (object ImportView "" @80
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DD4102CF"
+				client     	@18
+				supplier   	@3
+				line_style 	0)
+			    (object ImportView "" @81
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"3E43DDDE00B8"
+				client     	@18
+				supplier   	@4
+				vertices   	(list Points
+				    (454, 654)
+				    (1293, 381)
+				    (2073, 731))
+				line_style 	0)))))
+	    (object Class_Category "org.apache.coyote"
+		quid       	"3E42DE9F0132"
+		visible_categories 	(list visibility_relationship_list
+		    (object Visibility_Relationship
+			quid       	"3E42DEFC00B3"
+			supplier   	"Logical View::org.apache.tomcat.util"
+			quidu      	"3E42DEDF01F2"))
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "org.apache.tomcat.util"
+		quid       	"3E42DEDF01F2"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "org.apache.jasper"
+		quid       	"3E42DEFF0270"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Class_Category "org.apache.naming"
+		quid       	"3E43D1580339"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list)
+		logical_presentations 	(list unit_reference_list))
+	    (object Mechanism @82
+		logical_models 	(list unit_reference_list
+		    (object Object "Bootstrap"
+			quid       	"3DFDF8FD0345"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDF9210008"
+				supplier   	"Bootstrap"
+				quidu      	"3DFDF8FD0345"
+				messages   	(list Messages
+				    (object Message "initClassLoaders()"
+					quid       	"3DFDF9210009"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFDF91A010C"
+				supplier   	"Catalina"
+				quidu      	"3DFDF90A0330"
+				messages   	(list Messages
+				    (object Message "newInstance()"
+					quid       	"3DFDF91A010D"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setParentClassLoader()"
+					quid       	"3DFDF97900C2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "load()"
+					quid       	"3DFDFA3402F2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "Digester"
+			quid       	"3DFDFAF201A1"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDFB8400A6"
+				supplier   	"ServerLifecycleListener"
+				quidu      	"3DFDFB4B0217"
+				messages   	(list Messages
+				    (object Message "newInstance()"
+					quid       	"3DFDFB8400A7"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"9.1"
+					ordinal    	9
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFDFB920147"
+				supplier   	"GlobalResourcesLifecycleListener"
+				quidu      	"3DFDFB7A02AB"
+				messages   	(list Messages
+				    (object Message "newInstance()"
+					quid       	"3DFDFB920148"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"9.2"
+					ordinal    	10
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "ServerLifecycleListener"
+			quid       	"3DFDFB4B0217"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "GlobalResourcesLifecycleListener"
+			quid       	"3DFDFB7A02AB"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "SecurityConfig"
+			quid       	"3DFDFBD802BA"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "Catalina"
+			quid       	"3DFDF90A0330"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDFA8001D9"
+				supplier   	"Catalina"
+				quidu      	"3DFDF90A0330"
+				messages   	(list Messages
+				    (object Message "initDirs()"
+					quid       	"3DFDFA8001DA"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"5"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "initNaming()"
+					quid       	"3DFDFA8B0347"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"6"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "initialize()"
+					quid       	"3DFDFAAD01AC"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"7"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFDFAF800C3"
+				supplier   	"Digester"
+				quidu      	"3DFDFAF201A1"
+				messages   	(list Messages
+				    (object Message "createDigester()"
+					quid       	"3DFDFAF800C4"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "parse()"
+					quid       	"3DFDFB0100B2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"9"
+					ordinal    	8
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFDFBEA00C1"
+				supplier   	"SecurityConfig"
+				quidu      	"3DFDFBD802BA"
+				messages   	(list Messages
+				    (object Message "newInstance()"
+					quid       	"3DFDFBEA00C2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"10"
+					ordinal    	11
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setPackageDefinition()"
+					quid       	"3DFDFBF401F2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"11"
+					ordinal    	12
+					Operation  	"setPackageDefinition"
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setPackageAccess()"
+					quid       	"3DFDFC1203C2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"12"
+					ordinal    	13
+					Operation  	"setPackageAccess"
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)))
+	    (object Mechanism @83
+		logical_models 	(list unit_reference_list
+		    (object Object "Catalina"
+			quid       	"3DFDFC8F015F"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDFD1F0075"
+				supplier   	"StandardServer"
+				quidu      	"3DFDFCCB006B"
+				messages   	(list Messages
+				    (object Message "initialize()"
+					quid       	"3DFDFD1F0076"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardServer"
+			quid       	"3DFDFCCB006B"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDFD3D01C3"
+				supplier   	"StandardService"
+				quidu      	"3DFDFD370020"
+				messages   	(list Messages
+				    (object Message "initialize()"
+					quid       	"3DFDFD3D01C4"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardService"
+			quid       	"3DFDFD370020"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFDFE990304"
+				supplier   	"CoyoteConnector"
+				quidu      	"3DFDFE810313"
+				messages   	(list Messages
+				    (object Message "initialize()"
+					quid       	"3DFDFE990305"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "CoyoteConnector"
+			quid       	"3DFDFE810313"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE013D0216"
+				supplier   	"CoyoteAdapter"
+				quidu      	"3DFDFFA00226"
+				messages   	(list Messages
+				    (object Message "new()"
+					quid       	"3DFE013D0217"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.1"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE0183032F"
+				supplier   	"Http11Protocol"
+				quidu      	"3DFE016601A6"
+				messages   	(list Messages
+				    (object Message "new()"
+					quid       	"3DFE01830330"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.2"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "init()"
+					quid       	"3DFE0188032C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.3"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE01BC038B"
+				supplier   	"JkCoyoteAdapter"
+				quidu      	"3DFE01AD01A8"
+				messages   	(list Messages
+				    (object Message "new()"
+					quid       	"3DFE01BC038C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.4"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "init()"
+					quid       	"3DFE01C30164"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.5"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "CoyoteAdapter"
+			quid       	"3DFDFFA00226"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "Http11Protocol"
+			quid       	"3DFE016601A6"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "JkCoyoteAdapter"
+			quid       	"3DFE01AD01A8"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)))
+	    (object Mechanism @84
+		logical_models 	(list unit_reference_list
+		    (object Object "Bootstrap"
+			quid       	"3DFE027700F5"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE02830373"
+				supplier   	"Catalina"
+				quidu      	"3DFE027D0067"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE02830374"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "Catalina"
+			quid       	"3DFE027D0067"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE02BA0187"
+				supplier   	"StandardServer"
+				quidu      	"3DFE02B30015"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE02BA0188"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardServer"
+			quid       	"3DFE02B30015"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE02D3006B"
+				supplier   	"StandardServer"
+				quidu      	"3DFE02B30015"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(BEFORE_START_EVENT)"
+					quid       	"3DFE02D3006C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.1"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "fireLifecycleEvent(START_EVENT)"
+					quid       	"3DFE02DF02DF"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.2"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE030C02B2"
+				supplier   	"StandardService"
+				quidu      	"3DFE030400E3"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE030C02B3"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.3"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardService"
+			quid       	"3DFE030400E3"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE031D0021"
+				supplier   	"StandardService"
+				quidu      	"3DFE030400E3"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(BEFORE_START_EVENT)"
+					quid       	"3DFE031D0022"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.3.1"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "fireLifecycleEvent(START_EVENT)"
+					quid       	"3DFE0330019B"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.3.2"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE03700189"
+				supplier   	"StandardEngine"
+				quidu      	"3DFE034700C2"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE0370018A"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.3.3"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardEngine"
+			quid       	"3DFE034700C2"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE03750050"
+				supplier   	"StandardEngine"
+				quidu      	"3DFE034700C2"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(BEFORE_START_EVENT)"
+					quid       	"3DFE03750051"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	8
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "addDefaultMapper()"
+					quid       	"3DFE0389001C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3"
+					ordinal    	9
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "logger.start()"
+					quid       	"3DFE03980281"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	10
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "realm.start()"
+					quid       	"3DFE03A80107"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"5"
+					ordinal    	11
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "findMappers()"
+					quid       	"3DFE03BD000D"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"6"
+					ordinal    	12
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "findChildren()"
+					quid       	"3DFE03E000A4"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"7"
+					ordinal    	13
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE03FB0279"
+				supplier   	"StandardHost"
+				quidu      	"3DFE03F2035D"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE03FB027A"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8"
+					ordinal    	14
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardHost"
+			quid       	"3DFE03F2035D"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE043B02AD"
+				supplier   	"StandardHost"
+				quidu      	"3DFE03F2035D"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(BEFORE_START_EVENT)"
+					quid       	"3DFE043B02AE"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.1"
+					ordinal    	15
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "addDefaultMapper()"
+					quid       	"3DFE045C021F"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.2"
+					ordinal    	16
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "logger.start()"
+					quid       	"3DFE049B000C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.3"
+					ordinal    	17
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "findMapper()"
+					quid       	"3DFE04A303BB"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.4"
+					ordinal    	18
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "findChildren()"
+					quid       	"3DFE04A90342"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.5"
+					ordinal    	19
+					Operation  	"findChildren"
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE048E00B8"
+				supplier   	"StandardPipeline"
+				quidu      	"3DFE047D006D"
+				messages   	(list Messages
+				    (object Message "start()"
+					quid       	"3DFE048E00B9"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.6"
+					ordinal    	20
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardPipeline"
+			quid       	"3DFE047D006D"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE05780137"
+				supplier   	"StandardPipeline"
+				quidu      	"3DFE047D006D"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(BEFORE_START_EVENT)"
+					quid       	"3DFE05780138"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.6.1"
+					ordinal    	21
+					Operation  	"fireLifecycleEvent(AFTER_START_EVENT)"
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "fireLifecycleEvent(START_EVENT)"
+					quid       	"3DFE05A80398"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.6.2"
+					ordinal    	22
+					Operation  	"fireLifecycleEvent(BEFORE_START_EVENT)"
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "fireLifecycleEvent(AFTER_EVENT)"
+					quid       	"3DFE05BA0196"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"8.6.3"
+					ordinal    	23
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)))
+	    (object Mechanism @85
+		logical_models 	(list unit_reference_list
+		    (object Object "StandardHost"
+			quid       	"3DFE0538017B"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE066C0340"
+				supplier   	"StandardHost"
+				quidu      	"3DFE0538017B"
+				messages   	(list Messages
+				    (object Message "fireLifecycleEvent(START_EVENT)"
+					quid       	"3DFE066C0341"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE06D20293"
+				supplier   	"HostConfig"
+				quidu      	"3DFE06A60131"
+				messages   	(list Messages
+				    (object Message "interested[i].lifecycleEvent()"
+					quid       	"3DFE06D20294"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "install()"
+					quid       	"3DFE078B03BB"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2.6"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "install()"
+					quid       	"3DFE132D0309"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"ToClientFromSupplier"
+					sequence   	"5"
+					ordinal    	13
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE07B100BD"
+				supplier   	"StandardHostDeployer"
+				quidu      	"3DFE079A0055"
+				messages   	(list Messages
+				    (object Message "install()"
+					quid       	"3DFE07B100BE"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3"
+					ordinal    	8
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "install() // same as above"
+					quid       	"3DFE133A036C"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"6"
+					ordinal    	17
+					Operation  	"install()"
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "HostConfig"
+			quid       	"3DFE06A60131"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE06E9028C"
+				supplier   	"HostConfig"
+				quidu      	"3DFE06A60131"
+				messages   	(list Messages
+				    (object Message "setDeployXML()"
+					quid       	"3DFE06E9028D"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setLiveDeploy()"
+					quid       	"3DFE06F300FF"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.2"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setUnpacksWar()"
+					quid       	"3DFE06FB00D9"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.3"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "setXMLValidation()"
+					quid       	"3DFE070C0015"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.4"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "deployDescriptors()"
+					quid       	"3DFE073B0031"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.5"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "deployApps()"
+					quid       	"3DFE131F0327"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	12
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "StandardHostDeployer"
+			quid       	"3DFE079A0055"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE07D200EC"
+				supplier   	"Digester"
+				quidu      	"3DFE07C9034C"
+				messages   	(list Messages
+				    (object Message "create()"
+					quid       	"3DFE07D200ED"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.1"
+					ordinal    	9
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "parse()"
+					quid       	"3DFE07D603D7"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.6"
+					ordinal    	16
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "add(ContextRuleSet)"
+					quid       	"3DFE08FA003D"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.3"
+					ordinal    	11
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE087D01E2"
+				supplier   	"StandardHostDeployer"
+				quidu      	"3DFE079A0055")
+			    (object Link
+				quid       	"3DFE08DA029A"
+				supplier   	"ContextRuleSet"
+				quidu      	"3DFE0834016F"
+				messages   	(list Messages
+				    (object Message "new()"
+					quid       	"3DFE08DA029B"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.2"
+					ordinal    	10
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "add(NamingRuleSet())"
+					quid       	"3DFE0907015F"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.5"
+					ordinal    	15
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"3DFE08E00090"
+				supplier   	"NamingRuleSet"
+				quidu      	"3DFE08D00173"
+				messages   	(list Messages
+				    (object Message "new()"
+					quid       	"3DFE08E00091"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.4"
+					ordinal    	14
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "Digester"
+			quid       	"3DFE07C9034C"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "ContextRuleSet"
+			quid       	"3DFE0834016F"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "NamingRuleSet"
+			quid       	"3DFE08D00173"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)))
+	    (object Mechanism @86
+		logical_models 	(list unit_reference_list
+		    (object Object "Digester"
+			quid       	"3DFE095A0371"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"3DFE0E7801DA"
+				supplier   	"Digester"
+				quidu      	"3DFE095A0371"
+				messages   	(list Messages
+				    (object Message "parse"
+					quid       	"3DFE0E7801DB"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "startElement()"
+					quid       	"3DFE0F2F03D2"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	1
+					quidu

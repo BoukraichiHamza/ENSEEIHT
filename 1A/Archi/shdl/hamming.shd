@@ -1,0 +1,35 @@
+// 7 6 5 4 3 2 1
+// d4 d3 d2 c3 d1 c2 c1
+module emetteur(d4,d3,d2,d1 : de4,de3,de2,c3,de1,c2,c1)
+de4 = d4; de3 = d3; de2 = d2; de1 = d1;
+// calcul des bits de contrôle qui sont ajoutés au message
+bits_ctrl(d4,d3,d2,d1 : c3,c2,c1);
+end module
+module recepteur(dr4,dr3,dr2,cr3,dr1,cr2,cr1 : err, d4,d3,d2,d1)
+// même calcul des bits de contrôle sur le message reçu
+bits_ctrl(dr4,dr3,dr2,dr1 : c3,c2,c1);
+// la position de l'err est la différence entre (c3,c2,c1) et (cr3,cr2,cr1)
+poserr[2] = cr3*/c3+/cr3*c3;
+poserr[1] = cr2*/c2+/cr2*c2;
+poserr[0] = cr1*/c1+/cr1*c1;
+// décodage du numéro de l'erreur
+decoder3to8(poserr[2..0] : derr[7..0]);
+// il y a une erreur si poserr est non nul
+err = /derr[0];
+// s'il y a une erreur en position 7, 6, 5, 3 (donnée), elle est corrigée
+d4 = dr4*/derr[7] + /dr4*derr[7];
+d3 = dr3*/derr[6] + /dr3*derr[6];
+d2 = dr2*/derr[5] + /dr2*derr[5];
+d1 = dr1*/derr[3] + /dr1*derr[3];
+end module
+module bits_ctrl(d4,d3,d2,d1 : c3,c2,c1)
+ouex3(d1,d2,d4 : c1);
+ouex3(d1,d3,d4 : c2);
+ouex3(d2,d3,d4 : c3);
+end module
+
+module hamming(d4,d3,d2,d1, er[6..0] : err, dr4, dr3, dr2, dr1)
+   emetteur(d4, d3, d2, d1 : s1[6],s1[5],s1[4],s1[3],s1[2],s1[1],s1[0]);
+   s[6..0]=s1[6..0]*/er[6..0]+/s1[6..0]*er[6..0];
+   recepteur( s[6],s[5],s[4],s[3],s[2],s[1],s[0] : err, dr4,dr3,dr2,dr1);
+end module

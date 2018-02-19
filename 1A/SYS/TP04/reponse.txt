@@ -1,0 +1,33 @@
+echo bonjour > /dev/pts/2
+ls *.c > mes_fichiers_c
+ls *.h >> mes_fichiers_c
+cat mes_fichiers_c | wc
+
+2-
+* Compte le nombre de ligne du fichier resultat de find
+** Compte le nombre de ligne de chaques fichiers retrouvés avec find
+
+3 - ps -ef | grep hboukrai | wc -l
+
+3 - 1
+find -name '*.o' -exec rm -f {} \;
+ wc
+ grep return *.c | wc -l
+
+3 - 2
+sort -d Fichier_test.txt 
+sort -r Fichier_test.txt
+
+3.3 
+ls -tl | tail -n +2 | head -n +3
+
+3.4
+grep ADM Fichier_notes.csv | cut -d\; -f2,7
+
+grep ^B.*AJ$ Fichier_notes.csv | cut -d\; -f2,7
+
+3.5
+cat Fichier_test.txt | tr -dc aeiouy | wc -c
+
+ls -tl | tail -n +2 | head -n +3
+

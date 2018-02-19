@@ -1,0 +1,62 @@
+$Id: README 309 2012-02-29 18:10:25Z pamestoy $
+
+Codes dans ce repertoire: 
+-------------------------
+    - README ce fichier,
+    - TP_Iter.m  driver matlab gérant l'interface utilisateur
+                 le chargement des matrices et le choix
+                 du solveur utilisé.
+              A completer pour afficher la rapidité de convergence
+              de la methode
+    - Jacobi.m  
+              Interface de methode de Jacobi 
+              A completer
+    - GaussSeidel.m  
+              Interface de methode de Gauss Seidel
+              A completer
+    - CG.m  
+              Interface de methode du gradient conjugué
+              A completer
+    - CondEstim.m  
+              Interface d'une procedure qui calcule 
+              une estimation de la plus grande et la plus petite 
+              des valeurs propres d'une matrice.
+              A completer
+
+
+Le repertoire Matrices contenant un jeu de matrices 
+issues de problemes reels.
+
+
+*******************
+Travail à effectuer:
+*******************
+
+--------------------------------------------------------
+TP3: Developpement des methodes iteratives de résolution 
+     vues en cours
+---------------------------------------------------------
+
+    Ecrire les methodes de Jacobi, Gauss-Seidel et Gradient Conjugué
+    et afficher la courbe de convergence des methodes.
+
+    Comparer les performances des methodes en jouant sur la matrice
+    et sur la valeur du paramètre permettant de modifier la diagonale
+    des matrices de test. 
+
+--------------------------------------------------------
+TP4: Convergence et conditionnement de matrices
+--------------------------------------------------------
+
+    Completer le mfile CondEstim.m qui permet de calculer
+une estimation de la plus petite et de la plus grande valeur  
+propre. 
+
+     Pour calculer la plus grande valeur propre on utilisera
+l'algorithme de la puissance itérée et pour calculer 
+la plus petite on utilisera l'algorithme de la plus puissance
+itérée inverse.
+    
+     Corréler la rapidité de convergence des méthodes avec 
+la valeur du conditionnement des matrices de test.
+

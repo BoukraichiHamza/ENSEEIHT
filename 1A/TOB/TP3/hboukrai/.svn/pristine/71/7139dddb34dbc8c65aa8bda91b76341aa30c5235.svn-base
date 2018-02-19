@@ -1,0 +1,15 @@
+public class Compteur{
+    public void incrementer(){
+        this.valeur++;
+    }
+
+    public int getValeur(){
+        return this.valeur;
+    
+   private int valeur;
+   public Compteur(){
+      this.valeur = 1;
+>>>>>>> .r111814
+   }
+  
+}

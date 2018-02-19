@@ -1,0 +1,3 @@
+module testaffmux(rst, mclk, data[15..0]: an[3..0], ssg[6..0])
+    affmux(rst, mclk, data[15..0]: an[3..0], ssg[6..0]);
+end module

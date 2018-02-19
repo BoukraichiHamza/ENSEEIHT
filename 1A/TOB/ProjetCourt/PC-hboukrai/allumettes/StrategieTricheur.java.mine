@@ -1,0 +1,17 @@
+package allumettes;
+
+public class StrategieTricheur implements Strategie {
+
+	public StrategieTricheur() {
+	};
+
+	@Override
+	public int getPrise(Jeu jeucourant) {
+		try {
+			jeucourant.retirer(jeucourant.getNombreAllumettes() - 2);
+		} catch (CoupInvalideException e) {
+		}
+		return 1;
+	}
+
+}

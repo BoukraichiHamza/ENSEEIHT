@@ -1,0 +1,8 @@
+module shift1 (r,en, e[31..0] : s[31..0])
+   auxshiftd[30..0]=e[31..1];
+   auxshiftd[31]=0;
+   auxshiftg[31..1]=e[30..0];
+   auxshiftg[0]=0;
+   auxshift[31..0]=r*auxshiftd[31..0]+/r*auxshiftg[31..0];
+   s[31..0]=/en*e[31..0]+en*auxshift[31..0];
+end module

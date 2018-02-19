@@ -1,0 +1,72 @@
+nov. 11, 2015 12:26:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+nov. 11, 2015 12:26:30 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+nov. 11, 2015 12:26:30 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+nov. 11, 2015 12:26:30 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 736 ms
+nov. 11, 2015 12:26:30 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+nov. 11, 2015 12:26:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.56
+nov. 11, 2015 12:26:30 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/WS.war de l'application web
+nov. 11, 2015 12:26:31 AM org.apache.axis.utils.JavaUtils isAttachmentSupported
+AVERTISSEMENT: Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/WS.war has finished in 1 045 ms
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/web.war de l'application web
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/web.war has finished in 195 ms
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/ROOT de l'application web
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/ROOT has finished in 46 ms
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/docs de l'application web
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/docs has finished in 39 ms
+nov. 11, 2015 12:26:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/examples de l'application web
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/examples has finished in 348 ms
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/manager de l'application web
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/manager has finished in 58 ms
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/host-manager de l'application web
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory /home/hagimont/essai-mule/legacy/appli-web/tomcat/webapps/host-manager has finished in 76 ms
+nov. 11, 2015 12:26:32 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+nov. 11, 2015 12:26:32 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+nov. 11, 2015 12:26:32 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1896 ms
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+nov. 11, 2015 7:37:00 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+nov. 11, 2015 7:37:00 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@a7d84d]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1e8c6cf8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+nov. 11, 2015 7:37:00 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@a7d84d]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@5208c6e2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+nov. 11, 2015 7:37:00 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@a7d84d]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@1091226d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+nov. 11, 2015 7:37:00 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@a7d84d]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@2ecaf582]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+nov. 11, 2015 7:37:00 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@a7d84d]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@53dcb70f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+nov. 11, 2015 7:37:00 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,0 +1,246 @@
+V3 152
+FL //n7fs/hboukrai/Archi/vhdl/adder16.vhd 2016/12/07.16:48:09 P.20131013
+EN work/adder16 1481125709 FL //n7fs/hboukrai/Archi/vhdl/adder16.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder16/synthesis 1481125710 \
+      FL //n7fs/hboukrai/Archi/vhdl/adder16.vhd EN work/adder16 1481125709 \
+      CP adder8
+FL //n7fs/hboukrai/Archi/vhdl/adder32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/adder32 1481125717 FL //n7fs/hboukrai/Archi/vhdl/adder32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder32/synthesis 1481125718 \
+      FL //n7fs/hboukrai/Archi/vhdl/adder32.vhd EN work/adder32 1481125717 \
+      CP adder16
+FL //n7fs/hboukrai/Archi/vhdl/adder4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/adder4 1481125693 FL //n7fs/hboukrai/Archi/vhdl/adder4.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder4/synthesis 1481125694 \
+      FL //n7fs/hboukrai/Archi/vhdl/adder4.vhd EN work/adder4 1481125693 \
+      CP fulladder
+FL //n7fs/hboukrai/Archi/vhdl/adder8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/adder8 1481125701 FL //n7fs/hboukrai/Archi/vhdl/adder8.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder8/synthesis 1481125702 \
+      FL //n7fs/hboukrai/Archi/vhdl/adder8.vhd EN work/adder8 1481125701 CP adder4
+FL //n7fs/hboukrai/Archi/vhdl/addsub32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/addsub32 1481125721 FL //n7fs/hboukrai/Archi/vhdl/addsub32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/addsub32/synthesis 1481125722 \
+      FL //n7fs/hboukrai/Archi/vhdl/addsub32.vhd EN work/addsub32 1481125721 \
+      CP adder32
+FL //n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/barrelshifter32 1481125723 \
+      FL //n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/barrelshifter32/synthesis 1481125724 \
+      FL //n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd EN work/barrelshifter32 1481125723 \
+      CP shift1 CP shift2 CP shift4 CP shift8 CP shift16
+FL //n7fs/hboukrai/Archi/vhdl/clock28.vhd 2016/12/07.16:48:09 P.20131013
+EN work/clock28 1481125747 FL //n7fs/hboukrai/Archi/vhdl/clock28.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock28/synthesis 1481125748 \
+      FL //n7fs/hboukrai/Archi/vhdl/clock28.vhd EN work/clock28 1481125747 \
+      CP clock4
+FL //n7fs/hboukrai/Archi/vhdl/clock4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/clock4 1481125745 FL //n7fs/hboukrai/Archi/vhdl/clock4.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock4/synthesis 1481125746 \
+      FL //n7fs/hboukrai/Archi/vhdl/clock4.vhd EN work/clock4 1481125745
+FL //n7fs/hboukrai/Archi/vhdl/commUSB.vhd 2016/12/07.16:48:09 P.20131013
+EN work/commUSB 1481125749 FL //n7fs/hboukrai/Archi/vhdl/commUSB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/commUSB/synthesis 1481125750 \
+      FL //n7fs/hboukrai/Archi/vhdl/commUSB.vhd EN work/commUSB 1481125749
+FL //n7fs/hboukrai/Archi/vhdl/craps0.vhd 2016/12/07.16:48:09 P.20131013
+EN work/craps0 1481125755 FL //n7fs/hboukrai/Archi/vhdl/craps0.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/craps0/synthesis 1481125756 \
+      FL //n7fs/hboukrai/Archi/vhdl/craps0.vhd EN work/craps0 1481125755 \
+      CP clock28 CP commUSB CP sequencer CP micromachine
+FL //n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/decoder2to4 1481125689 FL //n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder2to4/synthesis 1481125690 \
+      FL //n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd EN work/decoder2to4 1481125689
+FL //n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/decoder3to8 1481125697 FL //n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder3to8/synthesis 1481125698 \
+      FL //n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd EN work/decoder3to8 1481125697 \
+      CP decoder2to4
+FL //n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd 2016/12/07.16:48:09 P.20131013
+EN work/decoder4to16 1481125705 FL //n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder4to16/synthesis 1481125706 \
+      FL //n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd EN work/decoder4to16 1481125705 \
+      CP decoder3to8
+FL //n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/decoder5to32 1481125713 FL //n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder5to32/synthesis 1481125714 \
+      FL //n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd EN work/decoder5to32 1481125713 \
+      CP decoder4to16
+FL //n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd 2016/12/07.16:48:09 P.20131013
+EN work/decoder6to64 1481125727 FL //n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder6to64/synthesis 1481125728 \
+      FL //n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd EN work/decoder6to64 1481125727 \
+      CP decoder5to32
+FL //n7fs/hboukrai/Archi/vhdl/eq32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/eq32 1481125733 FL //n7fs/hboukrai/Archi/vhdl/eq32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/eq32/synthesis 1481125734 \
+      FL //n7fs/hboukrai/Archi/vhdl/eq32.vhd EN work/eq32 1481125733 CP eq8
+FL //n7fs/hboukrai/Archi/vhdl/eq4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/eq4 1481125743 FL //n7fs/hboukrai/Archi/vhdl/eq4.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/eq4/synthesis 1481125744 \
+      FL //n7fs/hboukrai/Archi/vhdl/eq4.vhd EN work/eq4 1481125743
+FL //n7fs/hboukrai/Archi/vhdl/eq8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/eq8 1481125719 FL //n7fs/hboukrai/Archi/vhdl/eq8.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/eq8/synthesis 1481125720 \
+      FL //n7fs/hboukrai/Archi/vhdl/eq8.vhd EN work/eq8 1481125719
+FL //n7fs/hboukrai/Archi/vhdl/fulladder.vhd 2016/12/07.16:48:09 P.20131013
+EN work/fulladder 1481125685 FL //n7fs/hboukrai/Archi/vhdl/fulladder.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/fulladder/synthesis 1481125686 \
+      FL //n7fs/hboukrai/Archi/vhdl/fulladder.vhd EN work/fulladder 1481125685
+FL //n7fs/hboukrai/Archi/vhdl/micromachine.vhd 2016/12/07.16:48:09 P.20131013
+EN work/micromachine 1481125753 FL //n7fs/hboukrai/Archi/vhdl/micromachine.vhd \
+      LB UNISIM PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/micromachine/synthesis 1481125754 \
+      FL //n7fs/hboukrai/Archi/vhdl/micromachine.vhd EN work/micromachine 1481125753 \
+      CP decoder2to4 CP decoder4to16 CP registres CP rams_asyn_read512x32 CP ual \
+      CP reg8
+FL //n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/rams_asyn_read512x32 1481125737 \
+      FL //n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rams_asyn_read512x32/synthesis 1481125738 \
+      FL //n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd \
+      EN work/rams_asyn_read512x32 1481125737
+FL //n7fs/hboukrai/Archi/vhdl/reg32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/reg32 1481125731 FL //n7fs/hboukrai/Archi/vhdl/reg32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg32/synthesis 1481125732 \
+      FL //n7fs/hboukrai/Archi/vhdl/reg32.vhd EN work/reg32 1481125731
+FL //n7fs/hboukrai/Archi/vhdl/reg8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/reg8 1481125741 FL //n7fs/hboukrai/Archi/vhdl/reg8.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg8/synthesis 1481125742 \
+      FL //n7fs/hboukrai/Archi/vhdl/reg8.vhd EN work/reg8 1481125741
+FL //n7fs/hboukrai/Archi/vhdl/registres.vhd 2016/12/07.16:48:09 P.20131013
+EN work/registres 1481125735 FL //n7fs/hboukrai/Archi/vhdl/registres.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/registres/synthesis 1481125736 \
+      FL //n7fs/hboukrai/Archi/vhdl/registres.vhd EN work/registres 1481125735 \
+      CP decoder5to32 CP reg32 CP eq32
+FL //n7fs/hboukrai/Archi/vhdl/sequencer.vhd 2016/12/07.16:48:09 P.20131013
+EN work/sequencer 1481125751 FL //n7fs/hboukrai/Archi/vhdl/sequencer.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sequencer/synthesis 1481125752 \
+      FL //n7fs/hboukrai/Archi/vhdl/sequencer.vhd EN work/sequencer 1481125751 \
+      CP eq4 CP decoder4to16
+FL //n7fs/hboukrai/Archi/vhdl/shift1.vhd 2016/12/07.16:48:09 P.20131013
+EN work/shift1 1481125683 FL //n7fs/hboukrai/Archi/vhdl/shift1.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift1/synthesis 1481125684 \
+      FL //n7fs/hboukrai/Archi/vhdl/shift1.vhd EN work/shift1 1481125683
+FL //n7fs/hboukrai/Archi/vhdl/shift16.vhd 2016/12/07.16:48:09 P.20131013
+EN work/shift16 1481125715 FL //n7fs/hboukrai/Archi/vhdl/shift16.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift16/synthesis 1481125716 \
+      FL //n7fs/hboukrai/Archi/vhdl/shift16.vhd EN work/shift16 1481125715 \
+      CP shift8
+FL //n7fs/hboukrai/Archi/vhdl/shift2.vhd 2016/12/07.16:48:09 P.20131013
+EN work/shift2 1481125691 FL //n7fs/hboukrai/Archi/vhdl/shift2.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift2/synthesis 1481125692 \
+      FL //n7fs/hboukrai/Archi/vhdl/shift2.vhd EN work/shift2 1481125691 CP shift1
+FL //n7fs/hboukrai/Archi/vhdl/shift4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/shift4 1481125699 FL //n7fs/hboukrai/Archi/vhdl/shift4.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift4/synthesis 1481125700 \
+      FL //n7fs/hboukrai/Archi/vhdl/shift4.vhd EN work/shift4 1481125699 CP shift2
+FL //n7fs/hboukrai/Archi/vhdl/shift8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/shift8 1481125707 FL //n7fs/hboukrai/Archi/vhdl/shift8.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift8/synthesis 1481125708 \
+      FL //n7fs/hboukrai/Archi/vhdl/shift8.vhd EN work/shift8 1481125707 CP shift4
+FL //n7fs/hboukrai/Archi/vhdl/ual.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ual 1481125739 FL //n7fs/hboukrai/Archi/vhdl/ual.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ual/synthesis 1481125740 \
+      FL //n7fs/hboukrai/Archi/vhdl/ual.vhd EN work/ual 1481125739 CP addsub32 \
+      CP barrelshifter32 CP umult16x16 CP decoder6to64 CP ucmp32
+FL //n7fs/hboukrai/Archi/vhdl/ucmp1.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp1 1481125681 FL //n7fs/hboukrai/Archi/vhdl/ucmp1.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp1/synthesis 1481125682 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp1.vhd EN work/ucmp1 1481125681
+FL //n7fs/hboukrai/Archi/vhdl/ucmp16.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp16 1481125711 FL //n7fs/hboukrai/Archi/vhdl/ucmp16.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp16/synthesis 1481125712 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp16.vhd EN work/ucmp16 1481125711 CP ucmp8
+FL //n7fs/hboukrai/Archi/vhdl/ucmp2.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp2 1481125687 FL //n7fs/hboukrai/Archi/vhdl/ucmp2.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp2/synthesis 1481125688 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp2.vhd EN work/ucmp2 1481125687 CP ucmp1
+FL //n7fs/hboukrai/Archi/vhdl/ucmp32.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp32 1481125729 FL //n7fs/hboukrai/Archi/vhdl/ucmp32.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp32/synthesis 1481125730 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp32.vhd EN work/ucmp32 1481125729 CP ucmp16
+FL //n7fs/hboukrai/Archi/vhdl/ucmp4.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp4 1481125695 FL //n7fs/hboukrai/Archi/vhdl/ucmp4.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp4/synthesis 1481125696 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp4.vhd EN work/ucmp4 1481125695 CP ucmp2
+FL //n7fs/hboukrai/Archi/vhdl/ucmp8.vhd 2016/12/07.16:48:09 P.20131013
+EN work/ucmp8 1481125703 FL //n7fs/hboukrai/Archi/vhdl/ucmp8.vhd LB UNISIM \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ucmp8/synthesis 1481125704 \
+      FL //n7fs/hboukrai/Archi/vhdl/ucmp8.vhd EN work/ucmp8 1481125703 CP ucmp4
+FL //n7fs/hboukrai/Archi/vhdl/umult16x16.vhd 2016/12/07.16:48:09 P.20131013
+EN work/umult16x16 1481125725 FL //n7fs/hboukrai/Archi/vhdl/umult16x16.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/umult16x16/synthesis 1481125726 \
+      FL //n7fs/hboukrai/Archi/vhdl/umult16x16.vhd EN work/umult16x16 1481125725

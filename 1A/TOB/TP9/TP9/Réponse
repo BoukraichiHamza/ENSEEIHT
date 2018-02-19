@@ -1,0 +1,7 @@
+2.1.1 Aucune modification a faire sur le programme de test.
+2.1.2 Les modifications à faire sont de rendre les exceptions sous classes de exception au lieu de runtime exception
+2.2 Les informations à associer sont le montant et le titulaire
+2.3.1 La solution c'est de catch toutes les exceptions sous forme de Exception
+2.3.2 L'inconvénient : perdre en précision dans les cas de filtrages des exceptions
+
+3.1 Les erreurs signalées sont que les exceptions ne sont pas déclarées dans les entêtes

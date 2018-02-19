@@ -1,0 +1,113 @@
+V "GNAT Lib v4.9"
+M P W=b
+A -gnat12
+A -gnata
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U except_ens%b		except_ens.adb		fb41bd7f NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-assert.ads		20120410054430 0a052b2b
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D except_ens.adb	20161026074113 dee8ad84
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20141119215827 90249111
+D s-assert.ads		20140225151544 cd8d2c94
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 14|6r6 6r23 7r6 8r5 9r6 10r5 11r6 12r5
+X 2 a-assert.ads
+24K13*Assertions 36e19 14|11w10 12r9
+X 5 a-flteio.ads
+20K13*Float_Text_IO[11|45] 14|9w10 10r9
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|45] 14|7w10 8r9
+X 10 a-textio.ads
+49K13*Text_IO 471e16 14|6w10 6r27
+166U14*New_Line 14|138s7 142s7 147s7 169s26 184s27 186s27 193s26 195s27 205s27
+. 207s27
+242U14*Put 14|137s7 140s7 143s7 168s27 170s27 183s28 185s27 192s26 194s27
+. 204s27 206s27
+X 12 a-tiinio.ads
+65U14*Put 14|141s7[6|18] 145s9[6|18]
+X 14 except_ens.adb
+14U11*except_ens 14b11 211l6 211t16
+16i3 NMAX{integer} 17r29 83r44 84r25 90r23
+17A8 elements(integer)<integer> 19r15
+18R8 ensemble 21e13 36r30 40r30 41r13 58r32 81r34 86r34 106r36 134r31 152r9
+19a5 contenu{17A8} 62r41 94m10 112r42 118m13 118r28 145r16
+20i5 cardinal{integer} 38r29 43m12 62r20 65r16 83r15 83r34 84r16 84r66 84r82
+. 84r128 84r144 90r14 93m10 93r23 94r21 109r12 112r21 115r16 118r39 119m13
+. 119r26 136r11 141r14 144r22
+23X3 ensemble_plein 91r13 183r10 204r9
+24X3 element_present 89r13 185r8 206r8
+25X3 ensemble_vide 110r14 168r10 192r9
+26X3 element_absent 116r15 170r9 194r9
+36V12 creer_vide{18R8} 38r11 40b12 45l7 45t17 161s13
+41r5 e_vide{18R8} 43m5 44r12
+58V12 appartient{boolean} 58b12 58>24 58>42 71l7 71t17 84s38 84s99 88s8
+58r24 Fe{18R8} 62r17 62r38 65r13
+58i42 Fx{integer} 62r53
+59b5 appart{boolean} 68m10 70r15
+60i5 i{integer} 62r14 62r49 63m10 63r13 65r11
+81U13 ajouter 81=22 81>44 86b13 96l7 96t14 176s4 181s3 202s3
+81r22 Fe{18R8} 83r12 83r31 84r13 84r49 84r63 84r75 84r110 84r125 84r137 86b22
+. 88r19 90r11 93m7 93r20 94m7 94r18
+81i44 Fx{integer} 84r56 84r117 86b44 88r22 94r32
+106U13 supprimer 106b13 106=25 106>46 122l8 122t17 165s3 190s3 199s3
+106r25 Fe{18R8} 109r9 112r18 112r39 115r13 118m10 118r25 118r36 119m10 119r23
+106i46 Fx{integer} 112r55
+107i3 i{integer} 112r14 112r50 113m10 113r13 115r11 118r21
+134U12 afficher 134b12 134>23 149l7 149t15
+134r23 Fe{18R8} 136r8 141r11 144r19 145r13
+144i11 i{integer} 145r24
+152r1 e_test2{18R8} 161m4 165m13 165r13 176m12 176r12 181m11 181r11 190m13
+. 190r13 199m13 199r13 202m11 202r11
+175i7 i{integer} 176r20
+

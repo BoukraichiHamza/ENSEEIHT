@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/hboukrai/nosave/apache-activemq-5.14.0/activemq-all-5.14.0.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

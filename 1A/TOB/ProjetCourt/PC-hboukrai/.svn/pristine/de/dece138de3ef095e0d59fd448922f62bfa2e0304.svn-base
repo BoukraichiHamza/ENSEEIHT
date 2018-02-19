@@ -1,0 +1,37 @@
+!!! Il est interdit de changer Jeu.java (voir evaluation1/Jeu.java.diff)
+!!! Il est interdit de changer CoupInvalideException.java (voir evaluation1/CoupInvalideException.java.diff)
+
+Nombre de similitudes (voir evaluation1/sim_java.txt) : 8
+Les similitudes indiquent généralement du code à restructurer.
+
+Types d'erreurs checkstyle : 54	(voir evaluation1//checkstyle.log)
+
+Utilisation de 'Scanner' : ok
+	./allumettes/StrategieHumaine.java:	private Scanner scan;
+	./allumettes/StrategieHumaine.java:		this.scan = new Scanner(System.in);
+
+Utilisation de 'split' : ok mais un seul split devrait suffir !  Code à restructurer...
+	./allumettes/Partie.java:			String[] js1 = args[0+option_existe].split("@");
+	./allumettes/Partie.java:			String[] js2 = args[1+option_existe].split("@");
+
+Compilation de Partie.java : OK.
+Compilation de Arbitre.java : OK.
+Test exemplePresqueSujet : ok
+Test exempleTricheurSujet : ok
+Test exempleConfiantTricheurSujet : ok
+Test exempleRapideRapide : ok
+Test exempleTricheurExpert : ok
+
+On recommence avec les classes/interfaces fournies : Jeu ConfigurationException CoupInvalideException
+Compilation de Partie.java : OK.
+Compilation de Arbitre.java : OK.
+
+Vérification du respect du diagramme de classe...
+Test FormeTest : Tests run: 1,  Failures: 1	(voir evaluation1/FormeTest.log)
+    1) testerRespectArchitecture(FormeTest)
+        AssertionError: Méthode manquante dans la classe allumettes.Arbitre : arbitrer(allumettes.Jeu)
+
+
+Aucun programme de test (fichier *Test.java) !
+
+Total pénalités : 0

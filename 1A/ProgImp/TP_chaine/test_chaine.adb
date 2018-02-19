@@ -1,0 +1,3 @@
+--HAMZA BOUKRAICHI groupe H
+--programme test_chaine
+--programme pour tester les différentes utilisations du type STRING

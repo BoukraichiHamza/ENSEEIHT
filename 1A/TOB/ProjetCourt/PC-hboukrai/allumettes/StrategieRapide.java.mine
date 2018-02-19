@@ -1,0 +1,16 @@
+package allumettes;
+
+public class StrategieRapide implements Strategie {
+
+	public StrategieRapide() {
+	}
+
+	@Override
+	public int getPrise(Jeu jeucourant) {
+
+		assert jeucourant != null;
+
+		return Math.min(jeucourant.getNombreAllumettes(), jeucourant.PRISE_MAX);
+	}
+
+}

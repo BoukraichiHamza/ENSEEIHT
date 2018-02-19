@@ -1,0 +1,4 @@
+module testclock28(rst, mclk : s[27..0], ld[7..0])
+   clock28(rst, mclk : s[27..0]);
+   ld[7..0]=s[27..20];
+end module

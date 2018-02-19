@@ -1,0 +1,152 @@
+import java.awt.Color;
+
+/**Un cercle est une courbe plane fermée constituée des points 
+ * situés à égale distance d’un point nommé centre.
+ * La valeur de cette distance est appelée rayondu cercle.
+ * On appelle diamètre la distance entre deux points
+ * diamétralement opposés.
+ *
+ * @author Hamza BOUKRAICHI 1INH
+ */
+
+public class Cercle {
+  	private Point c; //Centre du cercle
+	private double r; //Rayon du cercle
+	private Color couleur; //Couleur 
+	
+	/**Construire un cercle à partir de son centre et de son rayon.
+	 * @param fc centre du cercle
+	 * @param fr rayon du cercle
+	 */
+	public Cercle (Point fc, double fr) {
+	  	this.c = new Point (fc.getX(),fc.getY());
+		this.r = fr;
+		this.couleur = Color.blue;
+	}
+
+	/**Construire un cercle à partir de deux points diamétralement opposés.
+	 * @param p1 1er point du cercle
+	 * @param p2 2ieme point du cercle
+	 */
+	public Cercle (Point p1, Point p2) {
+	  	this.c = new Point (((p1.getX()+p2.getX())/2),((p1.getY()+p2.getY())/2));
+		this.r = p1.distance(p2)/2;
+		this.couleur = Color.blue;
+	}
+
+	/**Construire un cercle à partir de deux points diamétralement opposés
+	 * et de sa couleur.
+	 * @param p1 1er point du cercle
+	 * @param p2 2ieme point du cercle
+	 * @param fcouleur la couleur du cercle
+	 */
+	public Cercle (Point p1, Point p2, Color fcouleur) {
+	  	this.c = new Point (((p1.getX()+p2.getX())/2),((p1.getY()+p2.getY())/2));
+		this.r = p1.distance(p2)/2;
+		this.couleur = fcouleur;
+	}
+
+	
+	/**Translater un cercle sur l'axe des X et l'axe des Y
+	 * @param dx déplacement suivant l'axe des X
+	 * @param dy déplacement suivant l'axe des Y
+	 */
+	public void translater( double dx, double dy) {
+	  	this.c.translater(dx,dy);
+	}
+
+	/**Obtenir le centre d'un cercle.
+	 * @return centre du cercle
+	 */
+	public Point getCentre () {
+	  	return new Point(this.c.getX(),this.c.getY());
+	}
+
+	/**Obtenir le rayon d'un cercle.
+	 * @return le rayon du cercle
+	 */
+	public double getRayon () {
+	  	return this.r;
+	}
+
+	/**Obtenir le diamètre d'un cercle.
+	 * @return le diamètre du cercle
+	 */
+	public double getDiametre () {
+	 	 return 2*this.getRayon();
+	}
+
+	/**Savoir si un point est contenu dans un cercle.
+	 * @param fp point à tester
+	 * @return Vrai si le cercle contient le point faux sinon.
+	 */
+	public boolean contient (Point fp) {
+	 	 return fp.distance(this.c) <= this.r;
+	}
+
+	/**Obtenir le périmètre d'un cercle.
+	 * @return le périmètre du cercle
+	 */
+	public double perimetre () {
+	 	 return 2*Math.PI*this.r;
+	}
+
+	/**Obtenir l'aire d'un cercle.
+	 * @return l'aire du cercle
+	 */
+	public double aire () {
+		 return Math.PI*this.r*this.r;
+	}
+
+	/**Obtenir la couleur du cercle.
+	 * @return couleur du cercle
+	 */
+	public Color getCouleur () {
+	  	return this.couleur;
+	}
+
+	/**Changer la couleur du cercle.
+	 *@param newcolor nouvelle couleur du cercle
+	 */
+	public void setCouleur (Color newcolor) {
+	  	this.couleur = newcolor;
+	}
+
+	/**Créer un cercle à partit de deux points.
+	 * Le premier correspond au centre.
+	 * Le second appartient à la circonférence.
+	 * @param p1 le premier point
+	 * @param p2 le second point
+	 * @return le cercle créé
+	 */
+	public Cercle creerCercle ( Point p1, Point p2 ) {
+	  	return new Cercle(p1,p1.distance(p2));
+	}
+
+	/**Renvoi le cercle sous forme de chaine de caractères.
+	 * @return le cercle en chaine de caractères
+	 */
+	public String toString () {
+	  	return "C"+this.getRayon()+"@"+this.getCentre();
+	}
+
+	/**Changer le rayon du cercle.
+	 * @param newr le nouveau rayon du cercle
+	 */
+	public void setRayon (double newr) {
+	  	this.r = newr;
+	}
+
+	/**Changer le diamètre du cercle.
+	 * @param newdiam le nouveau diamètre du cercle.
+	 */
+	public void setDiametre (double newdiam) {
+	  	this.setRayon(newdiam/2);
+	}
+
+}
+
+
+
+
+

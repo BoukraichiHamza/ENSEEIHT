@@ -1,0 +1,8 @@
+module addsub32(a[31..0], b[31..0], sub : s[31..0], V, C)
+   auxb[31..0]=/sub*b[31..0]+sub*/b[31..0];
+   adder32(a[31..0], auxb[31..0], sub : s[31..0],cout);
+   C=/sub*cout + sub*/cout;
+   Vadd=/a[31]*/b[31]*s[31]+a[31]*b[31]*/s[31];
+   Vsub=/a[31]*b[31]*s[31]+a[31]*/b[31]*/s[31];
+   V=/sub*Vadd+sub*Vsub;
+end module 

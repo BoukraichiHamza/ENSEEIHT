@@ -1,0 +1,39 @@
+package allumettes;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+
+public class TestRapide {
+	/* Stratégie a tester */
+	Strategie strat;
+
+	@Before
+	public void SetUp() {
+		this.strat = new StrategieRapide();
+	}
+
+	@Test
+	public void Test1() {
+		assertEquals("Nombre allumettes restants = 4 -> Tirage = 3", this.strat.getPrise(new JeuAllu(4)), 3);
+	}
+
+	@Test
+	public void Test2() {
+		assertEquals("Nombre allumettes restants = 3 -> Tirage = 3", this.strat.getPrise(new JeuAllu(3)), 3);
+	}
+
+	@Test
+	public void Test3() {
+		assertEquals("Nombre allumettes restants = 2 -> Tirage = 2", this.strat.getPrise(new JeuAllu(2)), 2);
+	}
+
+	@Test
+	public void Test4() {
+		assertEquals("Nombre allumettes restants = 1 -> Tirage = 1", this.strat.getPrise(new JeuAllu(1)), 1);
+	}
+
+	public static void main(String[] args) {
+		org.junit.runner.JUnitCore.main(TestRapide.class.getName());
+	}
+
+}

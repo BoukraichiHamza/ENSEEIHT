@@ -1,0 +1,4 @@
+module adder32(a[31..0], b[31..0], cin : s[31..0], cout)
+   adder16(a[15..0], b[15..0], cin : s[15..0], c0);
+   adder16(a[31..16], b[31..16], c0 : s[31..16], cout);
+end module

@@ -1,0 +1,21 @@
+8c8,10
+< 	/** Obtenir le nombre d'allumettes encore en jeu.
+---
+> 	/**
+> 	 * Obtenir le nombre d'allumettes encore en jeu.
+> 	 * 
+13,17c15,22
+< 	/** Retirer des allumettes.  Le nombre d'allumettes doit Ãªtre compris
+< 	 * entre 1 et PRISE_MAX, dans la limite du nombre d'allumettes encore
+< 	 * en jeu.
+< 	 * @param nbPrises nombre d'allumettes prises.
+< 	 * @throws CoupInvalideException tentative de prendre un nombre invalide d'alumettes
+---
+> 	/**
+> 	 * Retirer des allumettes. Le nombre d'allumettes doit Ãªtre compris entre 1
+> 	 * et PRISE_MAX, dans la limite du nombre d'allumettes encore en jeu.
+> 	 * 
+> 	 * @param nbPrises
+> 	 *            nombre d'allumettes prises.
+> 	 * @throws CoupInvalideException
+> 	 *             tentative de prendre un nombre invalide d'alumettes

@@ -1,0 +1,10 @@
+module dec7segsH(x[3..0] : seg[6..0])
+    decoder4to16(x[3..0]:dec[15..0]);
+	seg[0]=/dec[1]*/dec[4]*/dec[11]*/dec[13];
+	seg[1]=/dec[5]*/dec[6]*/dec[11]*/dec[12]*/dec[15];
+	seg[2]=/dec[2]*/dec[12]*/dec[14]*/dec[15];
+	seg[3]=/dec[1]*/dec[4]*/dec[7]*/dec[15];
+	seg[4]=/dec[1]*/dec[3]*/dec[4]*/dec[5]*/dec[7]*/dec[9];
+	seg[5]=/dec[1]*/dec[2]*/dec[3]*/dec[7]*/dec[10]*/dec[13];
+	seg[6]=/dec[0]*/dec[1]*/dec[7]*/dec[12];
+ end module

@@ -1,0 +1,29 @@
+3c3,5
+< /** Exception qui indique qu'un coup invalide est joué.
+---
+> /**
+>  * Exception qui indique qu'un coup invalide est joué.
+>  * 
+12,14c14,18
+< 	/** Initialiser CoupInvalideException à partir du nombre d'allumettes
+< 	 * prises.
+< 	 * @param nb le nombre d'allumettes prises
+---
+> 	/**
+> 	 * Initialiser CoupInvalideException à partir du nombre d'allumettes prises.
+> 	 * 
+> 	 * @param nb
+> 	 *            le nombre d'allumettes prises
+17c21
+< 		super("Prise invalide : " + nb);
+---
+> 		super("Erreur ! Prise invalide : " + nb);
+21,22c25,29
+< 	/** Indiquer le nombre d'allumettes qu'un joueur a voulu prendre.
+< 	  * @return le nombre d'allumettes qu'un joueur a voulu prendre. */
+---
+> 	/**
+> 	 * Indiquer le nombre d'allumettes qu'un joueur a voulu prendre.
+> 	 * 
+> 	 * @return le nombre d'allumettes qu'un joueur a voulu prendre.
+> 	 */

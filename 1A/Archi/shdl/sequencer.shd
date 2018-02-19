@@ -1,0 +1,173 @@
+
+// automatically generated from state diagram description: G:\Archi\shdl\sequencer.net
+
+module sequencer(rst, clk, mon_req, mon_cmd[3..0], monitor[37..0], break, run, ir[31..0], n, z, v, c, it : write, oe_num[1..0], areg[4..0], breg[4..0], dreg[4..0], cmd_ual[5..0], mon_ack)
+
+    // 4 bits state register
+    state[3..0] := stateD[3..0] ;
+    state[3..0].clk = clk ;
+    state[3..0].rst = rst ;
+
+    // states assignation
+    is_fetch = /state[3]*/state[2]*/state[1]*/state[0] ; // fetch = 0b0000
+    is_memW1St = /state[3]*/state[2]*/state[1]*state[0] ; // memW1St = 0b0001
+    is_memW2St = /state[3]*/state[2]*state[1]*/state[0] ; // memW2St = 0b0010
+    is_memR1St = /state[3]*/state[2]*state[1]*state[0] ; // memR1St = 0b0011
+    is_regR1St = /state[3]*state[2]*/state[1]*/state[0] ; // regR1St = 0b0100
+    is_regW1St = /state[3]*state[2]*/state[1]*state[0] ; // regW1St = 0b0101
+    is_step = /state[3]*state[2]*state[1]*/state[0] ; // step = 0b0110
+    is_decode = /state[3]*state[2]*state[1]*state[0] ; // decode = 0b0111
+    is_pcplus1 = state[3]*/state[2]*/state[1]*/state[0] ; // pcplus1 = 0b1000
+    is_calc_imm = state[3]*/state[2]*/state[1]*state[0] ; // calc_imm = 0b1001
+    is_branch = state[3]*/state[2]*state[1]*/state[0] ; // branch = 0b1010
+    is_addr_imm = state[3]*/state[2]*state[1]*state[0] ; // addr_imm = 0b1011
+    is_addr = state[3]*state[2]*/state[1]*/state[0] ; // addr = 0b1100
+
+    // state transitions
+    stateD[3..0] = 
+        is_fetch*mon_req*memwritecmd*0b0001 +
+        is_memW1St*mon_req*0b0001 +
+        is_memW1St*/mon_req*0b0010 +
+        is_memW2St*0b0000 +
+        is_fetch*mon_req*memreadcmd*0b0011 +
+        is_memR1St*mon_req*0b0011 +
+        is_memR1St*/mon_req*0b0000 +
+        is_fetch*mon_req*regreadcmd*0b0100 +
+        is_regR1St*mon_req*0b0100 +
+        is_regR1St*/mon_req*0b0000 +
+        is_fetch*mon_req*regwritecmd*0b0101 +
+        is_regW1St*mon_req*0b0101 +
+        is_regW1St*/mon_req*0b0000 +
+        is_fetch*/mon_req*/it*/run*0b0000+is_fetch*/mon_req*/it*break*0b0000 +
+        is_fetch*mon_req*stepcmd*0b0110 +
+        is_step*mon_req*0b0110 +
+        is_step*/mon_req*0b0111 +
+        is_fetch*run*/mon_req*/break*/it*0b0111 +
+        is_decode*ir[31]*/ir[30]*/ir[13]*0b1000 +
+        is_pcplus1*0b0000 +
+        is_decode*ir[31]*/ir[30]*ir[13]*0b1001 +
+        is_calc_imm*0b1000 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*test*0b1010 +
+        is_branch*/ir[31]*/ir[30]*ir[29]*test*0b0000 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*/test*0b0000 +
+        is_decode*ir[31]*ir[30]*ir[13]*0b1011 +
+        is_addr_imm*0b1100 +
+        is_decode*ir[31]*ir[30]*/ir[13]*0b1100 +
+        is_addr*/ir[21]*0b1000 +
+        is_addr*ir[21]*0b1000 +
+        is_decode*/ir[31]*/ir[30]*/ir[29]*0b1000 ;
+
+    // MEALY outputs
+
+    write =
+        is_memW2St*1 +
+        is_addr*ir[21]*1 ;
+
+    oe_num[1..0] =
+        is_fetch*mon_req*memwritecmd*0b11 +
+        is_memW1St*/mon_req*0b11 +
+        is_memW2St*0b01 +
+        is_fetch*mon_req*memreadcmd*0b11 +
+        is_memR1St*mon_req*0b10 +
+        is_fetch*mon_req*regreadcmd*0b01 +
+        is_regR1St*mon_req*0b01 +
+        is_regW1St*/mon_req*0b11 +
+        is_step*/mon_req*0b10 +
+        is_fetch*run*/mon_req*/break*/it*2 +
+        is_decode*ir[31]*/ir[30]*/ir[13]*1 +
+        is_pcplus1*1 +
+        is_decode*ir[31]*/ir[30]*ir[13]*1 +
+        is_calc_imm*1 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*test*1 +
+        is_branch*/ir[31]*/ir[30]*ir[29]*test*1 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*/test*1 +
+        is_decode*ir[31]*ir[30]*ir[13]*1 +
+        is_addr_imm*1 +
+        is_decode*ir[31]*ir[30]*/ir[13]*1 +
+        is_addr*/ir[21]*2 +
+        is_addr*ir[21]*1 +
+        is_decode*/ir[31]*/ir[30]*/ir[29]*1 ;
+
+    areg[4..0] =
+        is_memW2St*21 +
+        is_memR1St*mon_req*21 +
+        is_step*/mon_req*30 +
+        is_fetch*run*/mon_req*/break*/it*30 +
+        is_decode*ir[31]*/ir[30]*/ir[13]*ir[18..14] +
+        is_pcplus1*30 +
+        is_decode*ir[31]*/ir[30]*ir[13]*31 +
+        is_calc_imm*ir[18..14] +
+        is_decode*/ir[31]*/ir[30]*ir[29]*test*31 +
+        is_branch*/ir[31]*/ir[30]*ir[29]*test*30 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*/test*30 +
+        is_decode*ir[31]*ir[30]*ir[13]*31 +
+        is_addr_imm*ir[18..14] +
+        is_decode*ir[31]*ir[30]*/ir[13]*ir[18..14] +
+        is_addr*/ir[21]*21 +
+        is_addr*ir[21]*21 +
+        is_decode*/ir[31]*/ir[30]*/ir[29]*31 ;
+
+    breg[4..0] =
+        is_memW2St*22 +
+        is_fetch*mon_req*regreadcmd*monitor[4..0] +
+        is_regR1St*mon_req*monitor[4..0] +
+        is_decode*ir[31]*/ir[30]*/ir[13]*ir[4..0] +
+        is_pcplus1*20 +
+        is_calc_imm*21 +
+        is_branch*/ir[31]*/ir[30]*ir[29]*test*21 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*/test*20 +
+        is_addr_imm*21 +
+        is_decode*ir[31]*ir[30]*/ir[13]*ir[4..0] +
+        is_addr*ir[21]*ir[29..25] ;
+
+    dreg[4..0] =
+        is_fetch*mon_req*memwritecmd*21 +
+        is_memW1St*/mon_req*22 +
+        is_fetch*mon_req*memreadcmd*21 +
+        is_regW1St*/mon_req*wdreg[4..0] +
+        is_step*/mon_req*31 +
+        is_fetch*run*/mon_req*/break*/it*31 +
+        is_decode*ir[31]*/ir[30]*/ir[13]*ir[29..25] +
+        is_pcplus1*30 +
+        is_decode*ir[31]*/ir[30]*ir[13]*21 +
+        is_calc_imm*ir[29..25] +
+        is_decode*/ir[31]*/ir[30]*ir[29]*test*21 +
+        is_branch*/ir[31]*/ir[30]*ir[29]*test*30 +
+        is_decode*/ir[31]*/ir[30]*ir[29]*/test*30 +
+        is_decode*ir[31]*ir[30]*ir[13]*21 +
+        is_addr_imm*21 +
+        is_decode*ir[31]*ir[30]*/ir[13]*21 +
+        is_addr*/ir[21]*ir[29..25] +
+        is_decode*/ir[31]*/ir[30]*/ir[29]*ir[28..24] ;
+
+    cmd_ual[5..0] =
+        is_memW2St*0b101000 +
+        is_fetch*mon_req*regreadcmd*0b101000 +
+        is_regR1St*mon_req*0b101000 +
+        is_decode*ir[31]*/ir[30]*/ir[13]*ir[24..19] +
+        is_decode*ir[31]*/ir[30]*ir[13]*32 +
+        is_calc_imm*ir[24..19] +
+        is_decode*/ir[31]*/ir[30]*ir[29]*test*33 +
+        is_decode*ir[31]*ir[30]*ir[13]*32 +
+        is_addr*ir[21]*40 +
+        is_decode*/ir[31]*/ir[30]*/ir[29]*35 ;
+
+    // additional statements
+    eq4(mon_cmd[3..0], 0b0000, memReadCmd) ;
+    eq4(mon_cmd[3..0], 0b0001, regReadCmd) ;
+    eq4(mon_cmd[3..0], 0b0010, memWriteCmd) ;
+    eq4(mon_cmd[3..0], 0b0011, regWriteCmd) ;
+    eq4(mon_cmd[3..0], 0b0100, stepCmd) ;
+    wdreg[4..0] := monitor[36..32] ;
+    wdreg[4..0].clk = clk ;
+    wdreg[4..0].rst = rst ;
+    wdreg[4..0].ena = wdregWr ;
+    wdregWr = is_fetch*mon_req*regWriteCmd ;
+    mon_ack =
+    is_memW1St +
+    is_memR1St*mon_req +
+    is_regR1St*mon_req +
+    is_regW1St*mon_req ;
+    decoder4to16(ir[28..25]:dcond[15..0]);
+    test=dcond[8]+dcond[1]*Z+dcond[9]*/Z+dcond[6]*N+dcond[14]*/N;
+end module

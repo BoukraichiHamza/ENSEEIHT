@@ -1,0 +1,4 @@
+module adder16(a[15..0], b[15..0], cin : s[15..0], cout)
+   adder8(a[7..0], b[7..0], cin : s[7..0], c0);
+   adder8(a[15..8], b[15..8], c0 : s[15..8], cout);
+end module

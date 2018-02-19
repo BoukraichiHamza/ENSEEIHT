@@ -1,0 +1,53 @@
+Nom       :  BOUKRAICHI 
+Prénom    :  Hamza
+Groupe TP :  H
+
+Les « ... » indiquent les endroits à compléter.
+
+=====[ Questions ]==============================================================
+
+--------------------------------------------------------------------------------
+Pourquoi l'exception OperationImpossibleException ne peut pas être contrôlée
+par le compilateur ?
+--------------------------------------------------------------------------------
+
+Parce qu'elle hérite de Runtime Exception .
+
+
+--------------------------------------------------------------------------------
+Expliquer ce qu'il faut faire pour ajouter un nouveau niveau de jeu, par
+exemple la stratégie lente (C13).  Pour plus de précision, on numérotera
+les étapes à faire.
+--------------------------------------------------------------------------------
+
+La stratégie lente sera une réalisation de l'interface stratégie.
+* Créer la classe StrategieLente qui réalise l'interface Strategie.
+* Redéfinir la méthode get prise pour retourner 1.
+* On ajoutera dans la methode recupstrat ( dans la calsse partie, qui transforme
+la stratègie d'une chaine de caractères en Strategie.) le cas de "lent".
+
+
+--------------------------------------------------------------------------------
+Expliquer ce qui permet, dans votre conception, de changer dynamiquement
+(en cours d'exécution du programme) la stratégie d'un joueur (C14).
+--------------------------------------------------------------------------------
+
+Une méthode setStrategie a été ajouté à la classe Joueur.
+Pour changer de stratégie en cours d'éxécution on pourrait dans la classe arbitre
+demander entre chaque tour aux joueurs s'ils veulent changer de stratégie et faire
+l'appel de cette méthode.
+
+
+=====[ Explications ]===========================================================
+
+--------------------------------------------------------------------------------
+Donner ici les explications supplémentaires utiles à la compréhension du
+travail rendu.
+--------------------------------------------------------------------------------
+
+Concernant la stratégie experte, la stratégie consiste à remmettre constamment le jeu 
+à un nombre d'allumettes sous la formes de ((PriseMax +1)*k + 1) et finalement de s'assurer
+la victoire pour k = 0; néanmoins l'efficacité de cette stratégie est optimale que si le
+joueur expert joue en deuxième ( pour un nombre d'allumettes initial = 13 ). 
+
+--------------------------------------------------------------------------------

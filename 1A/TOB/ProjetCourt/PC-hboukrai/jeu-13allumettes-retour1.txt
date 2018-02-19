@@ -1,0 +1,89 @@
+Les Q# font référence aux questions posées dans le fichier LISEZ-MOI.txt.
+Les pénalités '+' seront évaluées manuellement (enseignant de TP).
+Les pénalités '+' peuvent donner lieu à des pénalités définitives en V1 (si le travail est jugé insuffisant).
+
+
++ C3 : Qualité du source de l'application : 1 pt
+    - non respect des règles CM/TD/TP...
+    - droits d'accès, accesseurs, constructeurs, etc.
+    - choix des identifiants
+    - structuration/commentaires (en particulier pour traitement des argumenets de la ligne de commande)
+    - redondance (en particulier pour traitement des argumenets de la ligne de commande)
+    - ...
+
+Manquant certains commentaires dans le code.
+
+
+- C6 : classes hors paquetage 'allumettes'
+
+RAS
+
+- C7 : non respect du diagramme de classe fourni
+
+RAS
+
+- C9 : Constructeur sans nb initial d'allumettes
+
+RAS
+
+- C11 : Pas d'utilisation des exceptions pour la robustesse du traitement des arguments de la ligne de commande
+
+RAS
+
+- C12 : Pas d'utilisation de Random dans le nivreau naif
+
+
+RAS
+ 
+- C13 : Impossible d'ajouter de nouvelles stratégies en ne modifiant que Partie (et Q2)
+
+RAS
+
+
+- C14 : Impossible de changer dynamiquement de stratégie (et Q3)
+
+RAS
+
+- C15 : Absence du suffixe Test
+
+Test doit être un suffixe et non un préfixe
+
+- C16 : Tests unitaires incomplets de la stratégie rapide
+    + non faits : 1 pt
+	+ mal écrits (pas de JUnit, @Test, etc) : 1 pt
+	- non complets
+
+RAS
+
+- C17 : Autres programmes de tests (non demandés, bonus)
+
+Pas donné
+
+- C20 : Méthodes non courtes
+
+RAS
+
+- C21 : Deux ou plus répétitions imbriquées dans une méthode
+
+RAS
+
+- Mauvaise mise en oeuvre du Proxy
+    + pas de proxy : 1 pt
+	- mauvaise compréhension/implantation
+
+RAS
+
++ L3 : Non complété : 1 pt
+    - Question 1
+    - Question 2
+    - Question 3
+    - Explications non pertinentes
+    - Orthographe / grammaire
+
+Q1 besoin de plus d'explication.
+
+- SVN :
+    - Retard non justifié
+
+-------------------------------------------------------------------
+Total Pénalité : 0

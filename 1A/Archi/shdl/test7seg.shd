@@ -1,0 +1,5 @@
+module test7seg (sw[3..0]:ssg[6..0], an[3..0])
+   dec7segsH(sw[3..0] : aux[6..0]);
+   ssg[6..0]=/aux[6..0];
+   an[3..0]=14;
+end module

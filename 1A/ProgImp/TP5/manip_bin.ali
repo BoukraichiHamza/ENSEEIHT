@@ -1,0 +1,95 @@
+V "GNAT Lib v4.9"
+M P W=b
+A -gnat2012
+A -gnata
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U manip_bin%b		manip_bin.adb		daa091b2 NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-assert.ads		20120410054430 0a052b2b
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D manip_bin.adb		20161005063235 633815f4
+D system.ads		20141119215827 90249111
+D s-assert.ads		20140225151544 cd8d2c94
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 14|7r6 7r27 11r6 12r5
+X 2 a-assert.ads
+24K13*Assertions 36e19 14|7w10 7r31
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 14|11w10 12r9
+X 9 a-textio.ads
+166U14*New_Line 14|43s5 143s5 151s5
+242U14*Put 14|142s5 150s5 183s3
+X 10 a-tiinio.ads
+55U14*Get 14|144s5[5|18] 152s5[5|18]
+65U14*Put 14|41s7[5|18] 184s3[5|18]
+X 14 manip_bin.adb
+15U11*manip_bin 15b11 185l5 185t14
+16i3 NMAX{integer} 17r29 40r25 61r18 85r17 106r18
+17A8 BINAIRE(integer)<integer> 21r14 22r14 23r14 32r38 38r38 58r38 76r48
+. 81r48 82r16 102r37 102r61 102r77 103r17
+18i3 N{integer} 145r13 152m9 160r25
+19i3 M{integer} 144m9 153r13 159r25
+20i3 S{integer} 180m3 184r7
+21a3 tab_binM{17A8} 159m3 164r15 170r25
+22a3 tab_binN{17A8} 160m3 165r15 170r34
+23a3 tab_binS{17A8} 170m3 175r14 180r17
+32U13 affich_bin 32>25 38b13 44l7 44t17 164s4 165s4 175s3
+32a25 Ftab_bin{17A8} 38b25 41r11
+40i9 i{integer} 41r20
+58V12 bin_to_b10{integer} 58b12 58>24 65l7 65t17 180s6
+58a24 Ftab_bin{17A8} 62r43
+59i5 Nombre_b10{integer} 62m7 62r21 64r12
+61i9 i{integer} 62r39 62r52
+76V12 b10_to_bin{17A8} 76>24 81b12 90l7 90t17 159s14 160s14
+76i24 Fn{integer} 78r12 81b24 83r26
+82a5 tab_conv{17A8} 86m7 89r12
+83i5 quotient{integer} 86r22 87m7 87r19
+85i9 i{integer} 86r16
+102V12 somme_bin{17A8} 102b12 102>22 102>46 136l7 136t16 170s15
+102a22 Ftab_bin1{17A8} 108r12 112r15 121r12 125r14
+102a46 Ftab_bin2{17A8} 108r25 112r28 121r25 125r27
+103a5 tab_somme{17A8} 109m11 113m12 116m12 122m11 126m13 129m13 135r12
+104i5 retenue{integer} 107r10 110m11 114m12 117m12 123m11 127m13 130m13
+106i9 i{integer} 108r22 108r35 109r21 112r25 112r38 113r22 116r22 121r22
+. 121r35 122r21 125r24 125r37 126r23 129r23
+X 33 text_io.ads
+24K9*Text_IO=24:29 14|10w6 10r19
+

@@ -1,0 +1,59 @@
+Section CalculPropositionnel.
+Require Import Naturelle.
+
+Variable phi psi chi E Y R : Prop.
+
+Theorem Thm_1 : ((phi \/ psi) -> chi) -> (psi -> chi).
+I_imp H1.
+I_imp H2.
+E_imp (phi\/psi).
+Hyp H1.
+I_ou_d.
+Hyp H2.
+Qed.
+
+
+Theorem Thm_2 : phi -> ~~phi.
+unfold not.
+I_imp H1.
+I_imp  H2.
+I_antiT phi.
+Hyp H2.
+Hyp H1.
+Qed.
+
+
+Theorem Thm_3 : (phi -> psi) -> (~psi -> ~phi).
+unfold not.
+I_imp H1.
+I_imp H2.
+I_imp H3.
+I_antiT psi.
+Hyp H2.
+E_imp phi.
+Hyp H1.
+Hyp H3.
+Qed.
+
+Theorem Thm_4 : ~~phi -> phi.
+I_imp H1.
+absurde H2.
+I_antiT (~ phi).
+Hyp H1.
+Hyp H2.
+Qed.
+
+Theorem Thm_5 : (~psi -> ~phi) -> (phi -> psi).
+I_imp H1.
+I_imp H2.
+absurde H3.
+I_antiT phi.
+E_imp (~psi).
+Hyp H1.
+Hyp H3.
+Hyp H2.
+Qed.
+
+Theorem Thm_6 : ((E -> (Y \/ R)) /\ (Y -> R)) -> (~R -> ~E).
+
+

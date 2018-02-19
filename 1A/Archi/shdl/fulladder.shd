@@ -1,0 +1,4 @@
+module fulladder(a,b,cin:s,cout)
+    s= /a*b*/cin + a*/b*/cin +a*b*cin + /a*/b*cin;
+    cout=a*cin+b*cin+a*b;
+end module

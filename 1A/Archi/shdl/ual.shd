@@ -1,0 +1,39 @@
+module ual(a[31..0], b[31..0], cmd[5..0] : s[31..0],eN, eZ, eVC, N, Z, V, C)
+    
+	
+	addsub32(a[31..0], b[31..0], 0 : auxadd[31..0], V1, C1);
+    addsub32(a[31..0], b[31..0], 1 : auxsub[31..0], V2, C2);
+    
+	auxand[31..0]=a[31..0]*b[31..0];
+    auxor[31..0]=a[31..0]+b[31..0];
+    auxxor[31..0]=/a[31..0]*b[31..0]+a[31..0]*/b[31..0];
+    
+	barrelshifter32(1 , b[4..0], a[31..0] : auxdecd[31..0]);
+    barrelshifter32(0 , b[4..0], a[31..0] :	auxdecg[31..0]);
+    
+	umult16x16(a[15..0], b[15..0]: auxumult[31..0]);
+	
+	auxsethi[7..0]=0;
+	auxsethi[31..8]=a[23..0];
+    
+	signext13[12..0]=a[12..0];
+	signext13[31..13]=a[12]*0b1111111111111111111 + /a[12]*0;
+	
+	signext25[24..0]=a[24..0];
+	signext25[31..25]=a[24]*0b1111111 + /a[24]*0;
+
+    decoder6to64(cmd[5..0]:commanddec[63..0]);
+    
+	s[31..0]=commanddec[0]*auxadd[31..0]+commanddec[4]*auxsub[31..0]+commanddec[1]*auxand[31..0]+commanddec[2]*auxor[31..0]+commanddec[3]*auxxor[31..0]+commanddec[13]*auxdecd[31..0]+commanddec[14]*auxdecg[31..0]+commanddec[26]*auxumult[31..0]+commanddec[16]*auxadd[31..0]+commanddec[20]*auxsub[31..0]+commanddec[18]*auxor[31..0]+commanddec[17]*auxand[31..0]+commanddec[19]*auxxor[31..0]+commanddec[40]*b[31..0]+commanddec[35]*auxsethi[31..0]+commanddec[32]*signext13[31..0]+commanddec[33]*signext25[31..0];
+
+	
+	V=commanddec[0]*V1+commanddec[4]*V2+commanddec[16]*V1+commanddec[20]*V2;
+	C=commanddec[0]*C1+commanddec[4]*C2+commanddec[16]*C1+commanddec[20]*C2;
+	N=S[31];
+	ucmp32(s[31..0], 0 :sup, Z);
+    
+	eN=commanddec[16]+commanddec[17]+commanddec[18]+commanddec[19]+commanddec[20];
+    eZ=commanddec[16]+commanddec[17]+commanddec[18]+commanddec[19]+commanddec[20]+commanddec[26];
+    eVC=commanddec[16]+commanddec[20];
+	
+end module

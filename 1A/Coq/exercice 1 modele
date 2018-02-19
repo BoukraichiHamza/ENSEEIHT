@@ -1,0 +1,11 @@
+Section CalculPropositionnel.
+Require Import Naturelle.
+Variables A B : Prop.
+Theorem Thm00 : A /\ B -> B /\ A.
+I_imp HAetB.
+I_et.
+E_et_d A.
+Hyp HAetB.
+E_et_g B.
+Hyp HAetB.
+Qed.

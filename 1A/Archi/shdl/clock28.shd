@@ -1,0 +1,9 @@
+module clock28(rst, h : s[27..0])
+   clock4(rst, h : s[3..0]);
+   clock4(rst, s[3] : s[7..4]);
+   clock4(rst, s[7] : s[11..8]);
+   clock4(rst, s[11] : s[15..12]);
+   clock4(rst, s[15] : s[19..16]);
+   clock4(rst, s[19] : s[23..20]);
+   clock4(rst, s[23] : s[27..24]);
+end module

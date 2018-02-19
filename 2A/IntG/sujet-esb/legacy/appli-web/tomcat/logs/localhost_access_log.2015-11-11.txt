@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Nov/2015:00:27:17 +0100] "GET /WS/services/AccountManager?wsdl&method=createAccount?wsdl HTTP/1.1" 200 2375
+127.0.0.1 - - [11/Nov/2015:00:27:20 +0100] "POST /WS/services/AccountManager?wsdl&method=createAccount HTTP/1.1" 200 317
+127.0.0.1 - - [11/Nov/2015:01:23:26 +0100] "GET /WS/services/AccountManager?wsdl&method=createAccount?wsdl HTTP/1.1" 200 2375
+127.0.0.1 - - [11/Nov/2015:01:23:29 +0100] "POST /WS/services/AccountManager?wsdl&method=createAccount HTTP/1.1" 200 317
+127.0.0.1 - - [11/Nov/2015:01:52:21 +0100] "GET /WS/services/AccountManager?wsdl&method=createAccount?wsdl HTTP/1.1" 200 2375
+127.0.0.1 - - [11/Nov/2015:01:52:23 +0100] "POST /WS/services/AccountManager?wsdl&method=createAccount HTTP/1.1" 200 317

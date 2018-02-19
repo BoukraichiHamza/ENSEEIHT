@@ -1,0 +1,16 @@
+127.0.0.1 - - [08/Oct/2016:16:23:58 +0200] "GET /WS/services/AccountManager?wsdl&method=createAccount?wsdl HTTP/1.1" 200 2375
+127.0.0.1 - - [08/Oct/2016:16:24:00 +0200] "POST /WS/services/AccountManager?wsdl&method=createAccount HTTP/1.1" 200 317
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET / HTTP/1.1" 200 11217
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /tomcat.css HTTP/1.1" 200 5576
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /tomcat.png HTTP/1.1" 200 5103
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /asf-logo.png HTTP/1.1" 200 17811
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [08/Oct/2016:16:24:47 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [08/Oct/2016:16:25:09 +0200] "GET /web/Serv HTTP/1.1" 200 508
+127.0.0.1 - - [08/Oct/2016:17:15:28 +0200] "GET /WS/services/AccountManager?wsdl&method=createAccount?wsdl HTTP/1.1" 200 2375
+127.0.0.1 - - [08/Oct/2016:17:15:30 +0200] "POST /WS/services/AccountManager?wsdl&method=createAccount HTTP/1.1" 200 317
+127.0.0.1 - - [08/Oct/2016:17:15:54 +0200] "GET /index.html HTTP/1.1" 404 982
+127.0.0.1 - - [08/Oct/2016:17:16:00 +0200] "GET /web/Serv HTTP/1.1" 200 433

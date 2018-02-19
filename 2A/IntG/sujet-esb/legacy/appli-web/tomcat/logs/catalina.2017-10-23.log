@@ -1,0 +1,32 @@
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+oct. 23, 2017 3:00:34 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:00:34 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+oct. 23, 2017 3:01:29 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+oct. 23, 2017 3:01:29 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2207353b]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@2f2a2eff]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+oct. 23, 2017 3:01:29 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WS] created a ThreadLocal with key of type [org.apache.axis.utils.XMLUtils.ThreadLocalDocumentBuilder] (value [org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder@2207353b]) and a value of type [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl] (value [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl@60dae700]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+oct. 23, 2017 3:01:29 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]

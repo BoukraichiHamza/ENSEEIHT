@@ -1,0 +1,52 @@
+module micromachine(rst, clk, areg[4..0], breg[4..0], dreg[4..0], cmd_ual[5..0], oe_num[1..0], write, monitor[31..0], switch[7..0], swClk: dbus[31..0], N, Z, V, C, ir[31..0], break, leds[7..0])
+
+decoder2to4(oe_num[1..0]:oe[3..0]);
+decoder4to16(abus[31..28]:cs[15..0]);
+
+registres(rst, clk, areg[4..0], breg[4..0], dreg[4..0],dbus[31..0] : abus[31..0], bbus[31..0], ir[31..0], break);
+
+auxram1=write*cs[0];
+auxram2=oe[2]*cs[0];
+rams_asyn_read512x32(clk, auxram1, abus[8..0], dbus[31..0] : dbus_ram[31..0]);
+
+
+ual(abus[31..0], bbus[31..0], cmd_ual[5..0] : dbus_ual[31..0],eN, eZ, eVC, Naux, Zaux, Vaux, Caux);
+
+auxregs=oe[2]*cs[9];
+reg8(rst, swClk, 1, switch[7..0] : dbus_switch[7..0]);
+
+auxregl=write*cs[11];
+reg8(rst, clk, auxregl , dbus[7..0] : leds[7..0]);
+
+Naux1=Naux*eN;
+N := Naux; 
+N.rst = rst; 
+N.clk = clk;
+N.ena = Naux1;
+
+Zaux1=Zaux*eZ;
+Z := Zaux; 
+Z.rst = rst; 
+Z.clk = clk;
+Z.ena = Zaux1;
+
+Vaux1=Vaux*eVC;
+V := Vaux; 
+V.rst = rst; 
+V.clk = clk;
+V.ena = Vaux1;
+
+Caux1=Caux*eVC;
+C := Caux; 
+C.rst = rst; 
+C.clk = clk;
+C.ena = Caux1;
+
+dbus_switch[31..8]=0;
+
+
+dbus[31..0]= dbus_ram[31..0] : auxram2;
+dbus[31..0]= dbus_ual[31..0] : oe[1];
+dbus[31..0]= monitor[31..0] : oe[3];
+dbus[31..0]= dbus_switch[31..0]: auxregs;
+end module

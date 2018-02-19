@@ -1,0 +1,19 @@
+Fichiers pour le TP "Premiers Algos" de l'UE Optimisation Numerique
+
+README : le present fichier
+
+PremiersAlgos.pdf : le sujet du TP
+
+f_C14.m,grad_f_C14.m,H_f_C14.m,J_res_C14.m,res_C14.m : fichiers a completer
+codant les differentes fonctions intervenant dans le processus d'optimisation
+
+C14.m : le script de test principal, a completer avec les iterations des
+algorithmes de Newton et Gauss-Newton
+
+setPos.m : une fonction auxiliaire d'affichage
+
+DATAS.mat : des donnees de reference pour valider vos fonctions *f_C14.m et
+*res_C14.m
+
+testFonction.m : une fonction permettant de valider vos completions de
+*f_C14.m et *res_C14.m

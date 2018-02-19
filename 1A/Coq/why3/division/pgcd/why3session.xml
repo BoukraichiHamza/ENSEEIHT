@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="4">
+<prover id="0" name="CVC3" version="2.4.1" timelimit="5" memlimit="1000"/>
+<prover id="1" name="CVC4" version="1.5-prerelease" timelimit="5" memlimit="1000"/>
+<file name="../pgcd.mlw" expanded="true">
+<theory name="PGCD" sum="d41d8cd98f00b204e9800998ecf8427e" expanded="true">
+</theory>
+<theory name="PGCDEuclide" sum="aa5abb3420a090d6267edd6cb87e35fc" expanded="true">
+ <goal name="WP_parameter pgcd_euclide" expl="VC for pgcd_euclide" expanded="true">
+ <transf name="split_goal_wp" expanded="true">
+  <goal name="WP_parameter pgcd_euclide.1" expl="1. loop invariant init" expanded="true">
+  <proof prover="0"><result status="valid" time="0.00"/></proof>
+  </goal>
+  <goal name="WP_parameter pgcd_euclide.2" expl="2. loop invariant preservation" expanded="true">
+  <proof prover="0"><result status="valid" time="0.03"/></proof>
+  </goal>
+  <goal name="WP_parameter pgcd_euclide.3" expl="3. loop variant decrease" expanded="true">
+  <proof prover="0"><result status="valid" time="0.02"/></proof>
+  </goal>
+  <goal name="WP_parameter pgcd_euclide.4" expl="4. loop invariant preservation" expanded="true">
+  <proof prover="0"><result status="valid" time="0.01"/></proof>
+  </goal>
+  <goal name="WP_parameter pgcd_euclide.5" expl="5. loop variant decrease" expanded="true">
+  <proof prover="0"><result status="valid" time="0.00"/></proof>
+  </goal>
+  <goal name="WP_parameter pgcd_euclide.6" expl="6. postcondition" expanded="true">
+  <proof prover="0"><result status="unknown" time="0.27"/></proof>
+  <proof prover="1"><result status="valid" time="0.01"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

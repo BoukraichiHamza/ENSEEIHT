@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mule-configuration xmlns="http://www.mulesoft.com/tooling/messageflow" name="smtp">
+    <global-element name="SMTP" type="http://www.mulesoft.org/schema/mule/smtps/connector" entity-id="064066a8-7cce-4708-b23b-f45a7bc2705b">
+        <properties>
+            <property name="d" value=""/>
+            <property name="customReconnection" value="false"/>
+            <property name="standardReconnection" value="false"/>
+            <property name="subject" value=""/>
+            <property name="bccAddresses" value=""/>
+            <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/smtp/connector"/>
+            <property name="validateConnections" value="true"/>
+            <property name="contentType" value=""/>
+            <property name="replyToAddresses" value=""/>
+            <property name="noReconnection" value="true"/>
+            <property name="ccAddresses" value=""/>
+            <property name="dispatcherPoolFactory-ref" value=""/>
+            <property name="blocking" value="true"/>
+            <property name="name" value="SMTP"/>
+            <property name="fromAddress" value=""/>
+            <property name="dynamicNotification" value="false"/>
+            <property-collection name="">
+                <property name="d" value=""/>
+                <property name="blocking" value="true"/>
+                <property name="customReconnection" value="false"/>
+                <property name="standardReconnection" value="false"/>
+                <property name="noReconnection" value="true"/>
+            </property-collection>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/smtps/tls-client;738254996"/>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/smtps/tls-trust-store;1838689053"/>
+        </properties>
+        <description></description>
+    </global-element>
+    <flow SubFlow="false" name="smtpFlow1" entity-id="fc925cf4-9428-484d-aa00-311e87aa13dc">
+        <lane hadOnlyOneElement="false" entity-id="cbe23d69-ca4e-4b97-ac3b-d3a0106a38de">
+            <endpoint direction="Inbound" message-exchange-pattern="OneWay" name="File" type="http://www.mulesoft.org/schema/mule/file/endpoint" entity-id="67c82279-8f59-404f-aecb-7f29801d7c47">
+                <properties>
+                    <property name="reverseOrder" value="false"/>
+                    <property name="moveToPattern" value=""/>
+                    <property name="pollingFrequency" value="1000"/>
+                    <property name="comparator" value=""/>
+                    <property name="disableTransportTransformer" value="false"/>
+                    <property name="exchange-pattern" value="one-way"/>
+                    <property name="ref" value=""/>
+                    <property name="transformer-refs" value=""/>
+                    <property name="moveToDirectory" value=""/>
+                    <property name="address" value=""/>
+                    <property name="fileAge" value="500"/>
+                    <property name="path" value="/tmp/in"/>
+                    <property name="encoding" value=""/>
+                    <property name="responseTimeout" value="10000"/>
+                    <property name="mimeType" value=""/>
+                    <property name="connector-ref" value=""/>
+                </properties>
+                <description></description>
+            </endpoint>
+            <pattern name="File to String" type="http://www.mulesoft.org/schema/mule/file/file-to-string-transformer" entity-id="08e84c02-9092-4a08-84d1-c82e66adaf43"/>
+            <endpoint direction="Outbound" message-exchange-pattern="OneWay" name="SMTP" type="http://www.mulesoft.org/schema/mule/smtps/endpoint" entity-id="4e8ce5be-db55-4c67-a240-7d8b5a49ca0a">
+                <properties>
+                    <property name="port" value="587"/>
+                    <property name="to" value="hagimont@enseeiht.fr"/>
+                    <property name="host" value="mail.enseeiht.fr"/>
+                    <property name="subject" value="email from Mule"/>
+                    <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/smtp/endpoint"/>
+                    <property name="bcc" value=""/>
+                    <property name="from" value="hagimont@enseeiht.fr"/>
+                    <property name="disableTransportTransformer" value="false"/>
+                    <property name="password" value=""/>
+                    <property name="exchange-pattern" value="one-way"/>
+                    <property name="ref" value=""/>
+                    <property name="transformer-refs" value=""/>
+                    <property name="replyTo" value="tpdhlogin@gmail.com"/>
+                    <property name="address" value=""/>
+                    <property name="encoding" value=""/>
+                    <property name="user" value="hagimont"/>
+                    <property name="mimeType" value=""/>
+                    <property name="responseTimeout" value="10000"/>
+                    <property name="cc" value=""/>
+                    <property name="connector-ref" value="SMTP"/>
+                </properties>
+                <description></description>
+            </endpoint>
+        </lane>
+    </flow>
+    <description></description>
+</mule-configuration>

@@ -1,0 +1,63 @@
+V "GNAT Lib v2015"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U tri_insert%b		tri_insert.adb		b18afd7c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150506105332 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150506105328 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D system.ads		20150506105329 1d274481 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+D text_io.ads		20150506105330 45d626c9 text_io%s
+D tri_insert.adb	20160930094904 02175211 tri_insert%b
+X 1 ada.ads
+16K9*Ada 19e8 25|6r6 7r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 25|6w10 7r9
+X 7 a-textio.ads
+242U14*Put 25|20s8 26s8
+X 8 a-tiinio.ads
+56U14*Get 25|21s8[3|18] 28s8[3|18]
+66U14*Put 25|27s8[3|18] 46s7[3|18]
+X 24 text_io.ads
+24K9*Text_IO=24:29 25|5w6 5r19
+X 25 tri_insert.adb
+9U11*tri_insert 9b11 48l5 48t15
+10i3 NMAX{integer} 11r33 22r30
+11A8 TAB_ENTIERS(integer)<integer> 12r12
+12a3 un_tab{11A8} 28m12 28r12 32r12 32r22 33r14 35m13 35r24 37m11 46r11
+13i3 nb_elements{integer} 21m12 22r15 22r39 25r17 30r17 45r17
+14i3 x{integer} 33m11 37r22
+25i9 i{integer} 27r12 28r19
+30i9 i{integer} 31r19 32r29 33r21 34r35
+31i11 j{integer} 32r19 34r29 37r18
+34i15 k{integer} 35r20 35r31
+45i9 i{integer} 46r18
+

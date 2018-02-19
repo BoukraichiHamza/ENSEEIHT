@@ -1,0 +1,4 @@
+module ouex3(a, b, c: s)
+   aux=a*/b+/a*b;
+   s=c*/aux+/c*aux;
+end module

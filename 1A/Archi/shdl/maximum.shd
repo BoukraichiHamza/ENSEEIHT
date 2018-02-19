@@ -1,0 +1,7 @@
+module maximum(rst, h, val[3..0] : max[3..0])
+   ucmp4(val[3..0], max[3..0], sup, eq);
+   max[3..0]:=val[3..0];
+   max[3..0].rst=rst;
+   max[3..0].clk=h;
+   max[3..0].ena=sup;
+end module   

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="4">
+<prover id="0" name="Coq" version="8.4pl6" timelimit="5" memlimit="1000"/>
+<file name="../ascendant.mlw">
+<theory name="FactorielleAscendant" sum="04d895e4ba1ab8353719fc27d87fa9b7">
+ <goal name="WP_parameter factorielle" expl="VC for factorielle">
+ <transf name="split_goal_wp">
+  <goal name="WP_parameter factorielle.1" expl="1. loop invariant init">
+  <proof prover="0" edited="ascendant_FactorielleAscendant_WP_parameter_factorielle_3.v"><result status="valid" time="1.18"/></proof>
+  </goal>
+  <goal name="WP_parameter factorielle.2" expl="2. loop invariant preservation">
+  <proof prover="0" edited="ascendant_FactorielleAscendant_WP_parameter_factorielle_4.v"><result status="valid" time="1.25"/></proof>
+  </goal>
+  <goal name="WP_parameter factorielle.3" expl="3. loop variant decrease">
+  <proof prover="0" edited="ascendant_FactorielleAscendant_WP_parameter_factorielle_5.v"><result status="valid" time="1.25"/></proof>
+  </goal>
+  <goal name="WP_parameter factorielle.4" expl="4. postcondition">
+  <proof prover="0" edited="ascendant_FactorielleAscendant_WP_parameter_factorielle_6.v"><result status="valid" time="1.09"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>

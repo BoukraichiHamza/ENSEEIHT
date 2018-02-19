@@ -1,0 +1,115 @@
+$Id: README 303 2012-02-24 10:27:25Z fhrouet $
+
+Codes dans ce repertoire: 
+-------------------------
+    - README ce fichier,
+    - TestLU.f90    : code fortran90 de la factorisation LU SANS pivotage
+                      en format libre à tester/completer
+    - TestLUPIV.f90 : code fortran90 de la factorisation LU AVEC pivotage
+                      en format libre à tester/completer
+
+
+Compilation/link (generation d'un fichier executable chol) :
+   make
+
+tester;
+    FactorisationLU SANS pivotage:
+    ./testLU 
+    FactorisationLU AVEC pivotage:
+    ./testLUPIV 
+ 
+  (voir dans la subroutine init la description des options pour les 
+   matrices de test)
+   
+   
+
+
+*******************
+Travail à effectuer:
+*******************
+
+--------------------------------
+TP1: Factorisation SANS pivotage
+--------------------------------
+   Les etapes de résolution  (descente et remontees) sont fournies
+ 
+   1/ Ecrire l'etape de factorisation LU sans pivotage (voir algorithme du cours)
+      subroutine FACTO dont l'interface et le squelette sont fournis.
+ 
+   2/ Ecrire l'etape d'analyse de l'erreur 
+      subroutine ANALYSE_ERREUR dont l'interface et le squelette sont fournis.
+      On calculera:
+!           le residu equilibre   || b - A x || / || |A|*|x| + |b| ||
+!        et l'erreur relative     || x - xexact || / || xexact ||
+
+      On pourra utiliser la fonction NORME (fournie dans le fichier)
+   
+   3/ Completer la subroutine FACTO pour calculer le determinant
+
+   4/ On etudiera la valeur du residu equilibre et du determinant 
+      en fonction de l'ordre de la matrice
+      
+
+
+Exemple de sortie:
+-----------------
+
+   ===
+   n=4
+   ===
+ Matrice initiale A  par ligne  =
+   0.10400E+03   0.10000E+01   0.10000E+01   0.10000E+01
+   0.10000E+01   0.10400E+03   0.10000E+01   0.10000E+01
+   0.10000E+01   0.10000E+01   0.10400E+03   0.10000E+01
+   0.10000E+01   0.10000E+01   0.10000E+01   0.10400E+03
+
+
+ ... Matrice factorisee par ligne :  
+   0.10400E+03   0.10000E+01   0.10000E+01   0.10000E+01
+   0.96154E-02   0.10399E+03   0.99038E+00   0.99038E+00
+   0.96154E-02   0.95238E-02   0.10398E+03   0.98095E+00
+   0.96154E-02   0.95238E-02   0.94340E-02   0.10397E+03
+
+ ... Determinant =   0.11692E+09
+
+
+
+--------------------------------
+TP2: Factorisation AVEC pivotage
+--------------------------------
+   L'etape de résolution  (descente) devra etre modifiee pour prendre en compte
+   la permutation
+ 
+   1/ Ecrire l'etape de factorisation LU avec pivotage (voir algorithme du cours)
+      subroutine FACTO dont l'interface et le squelette sont fournis.
+      on memorisera la permutation P pour pouvoir l'appliquer sur le second membre
+      durant la phase de descente (L y =P B)
+   2/ On modifiera donc la phase de descente pour prendre en compte P
+   3/ Completer la subroutine FACTO pour prendre aussi en compte les permutations dans
+      le calcul du determinant
+
+
+Exemple de sortie:
+-----------------
+   ===
+   n=5
+   ===
+Matrice initiale A par ligne :
+   0.14901E-07   0.20000E+01   0.30000E+01   0.40000E+01   0.50000E+01
+   0.20000E+01   0.29802E-07   0.60000E+01   0.80000E+01   0.10000E+02
+   0.30000E+01   0.60000E+01   0.44703E-07   0.12000E+02   0.15000E+02
+   0.40000E+01   0.80000E+01   0.12000E+02   0.59605E-07   0.20000E+02
+   0.50000E+01   0.10000E+02   0.15000E+02   0.20000E+02   0.74506E-07
+
+
+... Matrice factorisee par ligne :  
+   0.50000E+01   0.10000E+02   0.15000E+02   0.20000E+02   0.74506E-07
+   0.40000E+00  -0.40000E+01  -0.33307E-15  -0.44409E-15   0.10000E+02
+   0.60000E+00  -0.55511E-16  -0.90000E+01   0.44409E-15   0.15000E+02
+   0.80000E+00   0.11102E-15   0.74015E-16  -0.16000E+02   0.20000E+02
+   0.29802E-08  -0.50000E+00  -0.33333E+00  -0.25000E+00   0.20000E+02
+
+  Determinant =   0.57600E+05
+
+
+

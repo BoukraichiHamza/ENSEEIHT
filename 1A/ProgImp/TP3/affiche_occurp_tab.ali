@@ -1,0 +1,62 @@
+V "GNAT Lib v2015"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U affiche_occurp_tab%b	affiche_occurp_tab.adb	d4f0eafe NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20150506105328 3ffc8e18 ada%s
+D a-except.ads		20150506105328 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150506105332 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150506105327 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150506105329 119b8fb3 ada.streams%s
+D a-tags.ads		20150506105332 dc4d0634 ada.tags%s
+D a-textio.ads		20150506105332 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150506105328 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150506105331 f9eb8f06 ada.unchecked_conversion%s
+D affiche_occurp_tab.adb  20160928075109 676d4593 affiche_occurp_tab%b
+D interfac.ads		20150506105327 6033a23f interfaces%s
+D i-cstrea.ads		20150506105327 e53d8b8e interfaces.c_streams%s
+D system.ads		20150506105329 1d274481 system%s
+D s-crtl.ads		20150506105326 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150506105331 54135002 system.exception_table%s
+D s-ficobl.ads		20150506105333 078245e4 system.file_control_block%s
+D s-parame.ads		20150506105331 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150506105328 aa763b52 system.soft_links%s
+D s-stache.ads		20150506105332 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150506105331 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150506105332 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150506105327 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150506105330 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150506105330 1b7d22d2 system.wch_con%s
+D text_io.ads		20150506105330 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 10|5r6 6r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|5w10 6r9
+X 7 a-textio.ads
+242U14*Put 10|21s8 27s8 31s5 34s7 52s7
+X 8 a-tiinio.ads
+56U14*Get 10|22s8[3|18] 29s8[3|18] 32s5[3|18] 35s7[3|18]
+66U14*Put 10|28s8[3|18] 50s7[3|18]
+X 10 affiche_occurp_tab.adb
+7U11*affiche_occurp_tab 7b11 54l5 54t23
+8i3 NMAX{integer} 9r33 23r30
+9A8 TAB_ENTIERS(integer)<integer> 10r12
+10a3 un_tab{9A8} 29m12 29r12 41r10
+11i3 nb_elements{integer} 22m12 23r15 23r39 26r17 36r19 40r15
+12i3 n{integer} 32m9 41r20
+13i3 p{integer} 35m11 36r15 40r43 49r20
+14i3 i{integer} 39m5 40r11 41r17 43m9 43r12 45m9 45r12 50r11
+15i3 nombre_occu{integer} 38m5 40r31 42m9 42r22 49r8
+26i9 i{integer} 28r12 29r19
+X 25 text_io.ads
+24K9*Text_IO=24:29 10|4w6 4r19
+

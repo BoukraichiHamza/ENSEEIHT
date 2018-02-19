@@ -1,0 +1,20 @@
+Etude de la micromachine
+-Un court-circuit est impossible sur le bus d vu la présence des décodeurs et des filtres 3 états$
+-Pour écrire en RAM on mets sur abbus l'adresse ou on veut ecrire ou lire et sur bbus la valeur à ecrire en RAM, et choisir la commande nopb sur l'UAL,  on met write à 1. Pour lire en RAM, on mets sur abbus l'adresse ou on veut lire, oe-num sur ob10.
+-on mets sur areg et breg l'adresse des registres sur lesquelles on veut effectuer le calcul, et sur dreg l'adresse du registre ou on veut enregistrer le resulats.
+-On mets sur abbus[31..28] la valeur décimale 11 et sur bbus[7..0] la valeur avec lesquelles on veut agir sur les leds, et write à 1; 
+-la lecture des états des switch se fait en mettant la valeur des switch dans un registre en mettant l'adresse sur dreg, et puis lire cette valeur en mettant l'adresse sur areg ou breg
+-Pour utiliser les signaux du moniteurs il faut stocker les signaux du moniteur dans le registre avec dreg et puis lire la valeur de ce registre sur le abbus avant de l'inserer dans l'ual
+
+3-
+
+--
+Lecture des états des switchs
+oe_num=11
+moniteur[31..28]=0101
+dreg=0011
+clk
+
+areg=0011
+dreg=0001
+oe_num=10

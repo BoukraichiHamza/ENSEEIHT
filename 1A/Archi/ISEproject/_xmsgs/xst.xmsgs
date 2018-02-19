@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp1.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/shift1.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/fulladder.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp2.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/shift2.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/adder4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/shift4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/adder8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/shift8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/adder16.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp16.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/shift16.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/adder32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/eq8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/addsub32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/umult16x16.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ucmp32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/reg32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/eq32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/registres.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/ual.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/reg8.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/eq4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/clock4.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/clock28.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/commUSB.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/sequencer.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/micromachine.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3530" delta="new" >Time stamp of file &quot;<arg fmt="%s" index="1">//n7fs/hboukrai/Archi/vhdl/craps0.vhd</arg>&quot; is newer than current system time.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">monitor&lt;37&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">monitor&lt;31:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ir&lt;12:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">c</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">v</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dcond&lt;15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dcond&lt;13:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dcond&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dcond&lt;5:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dcond&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decc&lt;25:23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decc&lt;20:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decc&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decb&lt;25:23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decb&lt;19:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">deca&lt;25:23&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">deca&lt;19:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sup</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;63:41&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;39:36&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;34&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;31:27&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;25:21&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">commanddec&lt;12:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">oe&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cs&lt;15:12&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cs&lt;10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cs&lt;8:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">btn&lt;3:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pc2board&lt;127:64&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pc2board&lt;58:56&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pc2board&lt;54:38&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clock&lt;27:20&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clock&lt;18:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clock&lt;3:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">board2pc&lt;127:64&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000000000000000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">board2pc&lt;56:32&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">clock4_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">clock28_0</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">clock4_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">clock28_0</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_100</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_102</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_70</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_103</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_104</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_105</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_72</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_106</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_68</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_69</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_112</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_107</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_74</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_75</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_113</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_108</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_80</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_76</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_77</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_120</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_115</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_82</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_78</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_116</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_83</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_122</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_117</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_84</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_79</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_85</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_123</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_118</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_90</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_86</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_124</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_119</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_125</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_87</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_92</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_126</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_88</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_93</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_94</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_127</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_89</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_95</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_96</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_97</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_98</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_99</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">commUSB_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_68</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_69</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_70</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_72</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_74</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_75</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_76</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_77</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_78</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_79</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_80</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_82</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_83</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_84</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_85</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_86</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_87</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_88</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_89</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_90</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_92</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_93</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_94</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_95</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_96</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_97</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_98</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_99</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_100</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_102</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_103</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_104</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_105</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_106</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_107</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_108</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_112</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_113</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_115</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_116</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_117</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_118</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_119</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_120</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_122</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_123</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_124</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_125</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_126</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_127</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_68</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_69</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_70</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_72</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_74</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_75</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_76</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_77</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_78</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_79</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_80</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_82</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_83</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_84</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_85</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_86</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_87</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_88</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_89</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_90</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_92</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_93</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_94</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_95</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_96</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_97</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_98</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_99</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_100</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_102</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_103</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_104</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_105</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_106</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_107</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_108</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_112</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_113</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_115</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_116</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_117</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_118</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_119</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_120</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_122</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_123</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_124</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_125</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_126</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_127</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_99</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_98</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_97</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_96</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_95</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_89</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_127</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_94</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_93</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_88</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_126</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_92</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_87</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_125</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_119</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_124</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_86</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_90</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_118</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_123</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_85</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_79</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_84</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_117</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_122</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_83</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_116</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_78</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_82</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_115</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_120</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_77</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_109</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_114</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_76</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_80</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_108</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_113</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_75</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_74</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_107</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_112</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_69</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_68</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_106</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_72</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_105</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_104</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_103</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_70</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_102</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_100</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">micromachine</arg>: <arg fmt="%d" index="2">32</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">registres</arg>: <arg fmt="%d" index="2">64</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pc2board_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">commUSB_1/pc2board_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_5/s_int_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_5/s_int_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_5/s_int_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_5/s_int_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_6/s_int_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_6/s_int_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_6/s_int_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">clock28_0/clock4_6/s_int_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">craps0</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,2015 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to ./xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: craps0.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "craps0.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "craps0"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-5-fg320
+
+---- Source Options
+Top Module Name                    : craps0
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : craps0.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Verilog 2001                       : YES
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp1.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp1.vhd" is newer than current system time.
+Entity <ucmp1> compiled.
+Entity <ucmp1> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/shift1.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/shift1.vhd" is newer than current system time.
+Entity <shift1> compiled.
+Entity <shift1> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/fulladder.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/fulladder.vhd" is newer than current system time.
+Entity <fulladder> compiled.
+Entity <fulladder> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp2.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp2.vhd" is newer than current system time.
+Entity <ucmp2> compiled.
+Entity <ucmp2> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd" is newer than current system time.
+Entity <decoder2to4> compiled.
+Entity <decoder2to4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/shift2.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/shift2.vhd" is newer than current system time.
+Entity <shift2> compiled.
+Entity <shift2> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/adder4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/adder4.vhd" is newer than current system time.
+Entity <adder4> compiled.
+Entity <adder4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp4.vhd" is newer than current system time.
+Entity <ucmp4> compiled.
+Entity <ucmp4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd" is newer than current system time.
+Entity <decoder3to8> compiled.
+Entity <decoder3to8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/shift4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/shift4.vhd" is newer than current system time.
+Entity <shift4> compiled.
+Entity <shift4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/adder8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/adder8.vhd" is newer than current system time.
+Entity <adder8> compiled.
+Entity <adder8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp8.vhd" is newer than current system time.
+Entity <ucmp8> compiled.
+Entity <ucmp8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd" is newer than current system time.
+Entity <decoder4to16> compiled.
+Entity <decoder4to16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/shift8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/shift8.vhd" is newer than current system time.
+Entity <shift8> compiled.
+Entity <shift8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/adder16.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/adder16.vhd" is newer than current system time.
+Entity <adder16> compiled.
+Entity <adder16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp16.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp16.vhd" is newer than current system time.
+Entity <ucmp16> compiled.
+Entity <ucmp16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd" is newer than current system time.
+Entity <decoder5to32> compiled.
+Entity <decoder5to32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/shift16.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/shift16.vhd" is newer than current system time.
+Entity <shift16> compiled.
+Entity <shift16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/adder32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/adder32.vhd" is newer than current system time.
+Entity <adder32> compiled.
+Entity <adder32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/eq8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/eq8.vhd" is newer than current system time.
+Entity <eq8> compiled.
+Entity <eq8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/addsub32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/addsub32.vhd" is newer than current system time.
+Entity <addsub32> compiled.
+Entity <addsub32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd" is newer than current system time.
+Entity <barrelshifter32> compiled.
+Entity <barrelshifter32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/umult16x16.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/umult16x16.vhd" is newer than current system time.
+Entity <umult16x16> compiled.
+Entity <umult16x16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd" is newer than current system time.
+Entity <decoder6to64> compiled.
+Entity <decoder6to64> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ucmp32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ucmp32.vhd" is newer than current system time.
+Entity <ucmp32> compiled.
+Entity <ucmp32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/reg32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/reg32.vhd" is newer than current system time.
+Entity <reg32> compiled.
+Entity <reg32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/eq32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/eq32.vhd" is newer than current system time.
+Entity <eq32> compiled.
+Entity <eq32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/registres.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/registres.vhd" is newer than current system time.
+Entity <registres> compiled.
+Entity <registres> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd" is newer than current system time.
+Entity <rams_asyn_read512x32> compiled.
+Entity <rams_asyn_read512x32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/ual.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/ual.vhd" is newer than current system time.
+Entity <ual> compiled.
+Entity <ual> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/reg8.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/reg8.vhd" is newer than current system time.
+Entity <reg8> compiled.
+Entity <reg8> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/eq4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/eq4.vhd" is newer than current system time.
+Entity <eq4> compiled.
+Entity <eq4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/clock4.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/clock4.vhd" is newer than current system time.
+Entity <clock4> compiled.
+Entity <clock4> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/clock28.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/clock28.vhd" is newer than current system time.
+Entity <clock28> compiled.
+Entity <clock28> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/commUSB.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/commUSB.vhd" is newer than current system time.
+Entity <commUSB> compiled.
+Entity <commUSB> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/sequencer.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/sequencer.vhd" is newer than current system time.
+Entity <sequencer> compiled.
+Entity <sequencer> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/micromachine.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/micromachine.vhd" is newer than current system time.
+Entity <micromachine> compiled.
+Entity <micromachine> (Architecture <synthesis>) compiled.
+Compiling vhdl file "//n7fs/hboukrai/Archi/vhdl/craps0.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//n7fs/hboukrai/Archi/vhdl/craps0.vhd" is newer than current system time.
+Entity <craps0> compiled.
+Entity <craps0> (Architecture <synthesis>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <craps0> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <clock28> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <commUSB> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <sequencer> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <micromachine> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <clock4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <eq4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder4to16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder2to4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <registres> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <rams_asyn_read512x32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ual> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <reg8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder3to8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder5to32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <eq32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <addsub32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <barrelshifter32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <umult16x16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder6to64> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder2to4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder4to16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <eq8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <adder32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift2> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder5to32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder3to8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <adder16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift2> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder4to16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder2to4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <adder8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift2> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder3to8> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <adder4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift2> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <decoder2to4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp2> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fulladder> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <shift1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <ucmp1> in library <work> (architecture <synthesis>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <craps0> in library <work> (Architecture <synthesis>).
+Entity <craps0> analyzed. Unit <craps0> generated.
+
+Analyzing Entity <clock28> in library <work> (Architecture <synthesis>).
+Entity <clock28> analyzed. Unit <clock28> generated.
+
+Analyzing Entity <clock4> in library <work> (Architecture <synthesis>).
+Entity <clock4> analyzed. Unit <clock4> generated.
+
+Analyzing Entity <commUSB> in library <work> (Architecture <synthesis>).
+    Set property "fsm_extract = no" for signal <stEppCur>.
+    Set property "fsm_encoding = user" for signal <stEppCur>.
+    Set property "signal_encoding = user" for signal <stEppCur>.
+    Set property "fsm_extract = no" for signal <stEppNext>.
+    Set property "fsm_encoding = user" for signal <stEppNext>.
+    Set property "signal_encoding = user" for signal <stEppNext>.
+Entity <commUSB> analyzed. Unit <commUSB> generated.
+
+Analyzing Entity <sequencer> in library <work> (Architecture <synthesis>).
+Entity <sequencer> analyzed. Unit <sequencer> generated.
+
+Analyzing Entity <eq4> in library <work> (Architecture <synthesis>).
+Entity <eq4> analyzed. Unit <eq4> generated.
+
+Analyzing Entity <decoder4to16> in library <work> (Architecture <synthesis>).
+Entity <decoder4to16> analyzed. Unit <decoder4to16> generated.
+
+Analyzing Entity <decoder3to8> in library <work> (Architecture <synthesis>).
+Entity <decoder3to8> analyzed. Unit <decoder3to8> generated.
+
+Analyzing Entity <decoder2to4> in library <work> (Architecture <synthesis>).
+Entity <decoder2to4> analyzed. Unit <decoder2to4> generated.
+
+Analyzing Entity <micromachine> in library <work> (Architecture <synthesis>).
+Entity <micromachine> analyzed. Unit <micromachine> generated.
+
+Analyzing Entity <registres> in library <work> (Architecture <synthesis>).
+Entity <registres> analyzed. Unit <registres> generated.
+
+Analyzing Entity <decoder5to32> in library <work> (Architecture <synthesis>).
+Entity <decoder5to32> analyzed. Unit <decoder5to32> generated.
+
+Analyzing Entity <reg32> in library <work> (Architecture <synthesis>).
+Entity <reg32> analyzed. Unit <reg32> generated.
+
+Analyzing Entity <eq32> in library <work> (Architecture <synthesis>).
+Entity <eq32> analyzed. Unit <eq32> generated.
+
+Analyzing Entity <eq8> in library <work> (Architecture <synthesis>).
+Entity <eq8> analyzed. Unit <eq8> generated.
+
+Analyzing Entity <rams_asyn_read512x32> in library <work> (Architecture <synthesis>).
+Entity <rams_asyn_read512x32> analyzed. Unit <rams_asyn_read512x32> generated.
+
+Analyzing Entity <ual> in library <work> (Architecture <synthesis>).
+Entity <ual> analyzed. Unit <ual> generated.
+
+Analyzing Entity <addsub32> in library <work> (Architecture <synthesis>).
+Entity <addsub32> analyzed. Unit <addsub32> generated.
+
+Analyzing Entity <adder32> in library <work> (Architecture <synthesis>).
+Entity <adder32> analyzed. Unit <adder32> generated.
+
+Analyzing Entity <adder16> in library <work> (Architecture <synthesis>).
+Entity <adder16> analyzed. Unit <adder16> generated.
+
+Analyzing Entity <adder8> in library <work> (Architecture <synthesis>).
+Entity <adder8> analyzed. Unit <adder8> generated.
+
+Analyzing Entity <adder4> in library <work> (Architecture <synthesis>).
+Entity <adder4> analyzed. Unit <adder4> generated.
+
+Analyzing Entity <fulladder> in library <work> (Architecture <synthesis>).
+Entity <fulladder> analyzed. Unit <fulladder> generated.
+
+Analyzing Entity <barrelshifter32> in library <work> (Architecture <synthesis>).
+Entity <barrelshifter32> analyzed. Unit <barrelshifter32> generated.
+
+Analyzing Entity <shift1> in library <work> (Architecture <synthesis>).
+Entity <shift1> analyzed. Unit <shift1> generated.
+
+Analyzing Entity <shift2> in library <work> (Architecture <synthesis>).
+Entity <shift2> analyzed. Unit <shift2> generated.
+
+Analyzing Entity <shift4> in library <work> (Architecture <synthesis>).
+Entity <shift4> analyzed. Unit <shift4> generated.
+
+Analyzing Entity <shift8> in library <work> (Architecture <synthesis>).
+Entity <shift8> analyzed. Unit <shift8> generated.
+
+Analyzing Entity <shift16> in library <work> (Architecture <synthesis>).
+Entity <shift16> analyzed. Unit <shift16> generated.
+
+Analyzing Entity <umult16x16> in library <work> (Architecture <synthesis>).
+Entity <umult16x16> analyzed. Unit <umult16x16> generated.
+
+Analyzing Entity <decoder6to64> in library <work> (Architecture <synthesis>).
+Entity <decoder6to64> analyzed. Unit <decoder6to64> generated.
+
+Analyzing Entity <ucmp32> in library <work> (Architecture <synthesis>).
+Entity <ucmp32> analyzed. Unit <ucmp32> generated.
+
+Analyzing Entity <ucmp16> in library <work> (Architecture <synthesis>).
+Entity <ucmp16> analyzed. Unit <ucmp16> generated.
+
+Analyzing Entity <ucmp8> in library <work> (Architecture <synthesis>).
+Entity <ucmp8> analyzed. Unit <ucmp8> generated.
+
+Analyzing Entity <ucmp4> in library <work> (Architecture <synthesis>).
+Entity <ucmp4> analyzed. Unit <ucmp4> generated.
+
+Analyzing Entity <ucmp2> in library <work> (Architecture <synthesis>).
+Entity <ucmp2> analyzed. Unit <ucmp2> generated.
+
+Analyzing Entity <ucmp1> in library <work> (Architecture <synthesis>).
+Entity <ucmp1> analyzed. Unit <ucmp1> generated.
+
+Analyzing Entity <reg8> in library <work> (Architecture <synthesis>).
+Entity <reg8> analyzed. Unit <reg8> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <commUSB>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/commUSB.vhd".
+    Found 128-bit register for signal <pc2board>.
+    Found 8-bit tristate buffer for signal <pdb>.
+    Found 8-bit 16-to-1 multiplexer for signal <busEppData>.
+    Found 4-bit register for signal <regEppAdr>.
+    Found 8-bit register for signal <stEppCur>.
+    Summary:
+	inferred 140 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+	inferred   8 Tristate(s).
+Unit <commUSB> synthesized.
+
+
+Synthesizing Unit <clock4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/clock4.vhd".
+    Found 4-bit register for signal <s_int>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <clock4> synthesized.
+
+
+Synthesizing Unit <eq4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/eq4.vhd".
+Unit <eq4> synthesized.
+
+
+Synthesizing Unit <decoder2to4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/decoder2to4.vhd".
+Unit <decoder2to4> synthesized.
+
+
+Synthesizing Unit <rams_asyn_read512x32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/rams_asyn_read512x32.vhd".
+    Found 512x32-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <rams_asyn_read512x32> synthesized.
+
+
+Synthesizing Unit <reg8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/reg8.vhd".
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <reg8> synthesized.
+
+
+Synthesizing Unit <reg32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/reg32.vhd".
+    Found 32-bit register for signal <q_int>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <reg32> synthesized.
+
+
+Synthesizing Unit <eq8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/eq8.vhd".
+Unit <eq8> synthesized.
+
+
+Synthesizing Unit <umult16x16>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/umult16x16.vhd".
+    Found 16x16-bit multiplier for signal <res>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <umult16x16> synthesized.
+
+
+Synthesizing Unit <fulladder>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/fulladder.vhd".
+Unit <fulladder> synthesized.
+
+
+Synthesizing Unit <shift1>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/shift1.vhd".
+Unit <shift1> synthesized.
+
+
+Synthesizing Unit <ucmp1>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp1.vhd".
+Unit <ucmp1> synthesized.
+
+
+Synthesizing Unit <clock28>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/clock28.vhd".
+Unit <clock28> synthesized.
+
+
+Synthesizing Unit <decoder3to8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/decoder3to8.vhd".
+Unit <decoder3to8> synthesized.
+
+
+Synthesizing Unit <eq32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/eq32.vhd".
+Unit <eq32> synthesized.
+
+
+Synthesizing Unit <adder4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/adder4.vhd".
+Unit <adder4> synthesized.
+
+
+Synthesizing Unit <shift2>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/shift2.vhd".
+Unit <shift2> synthesized.
+
+
+Synthesizing Unit <ucmp2>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp2.vhd".
+Unit <ucmp2> synthesized.
+
+
+Synthesizing Unit <decoder4to16>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/decoder4to16.vhd".
+Unit <decoder4to16> synthesized.
+
+
+Synthesizing Unit <adder8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/adder8.vhd".
+Unit <adder8> synthesized.
+
+
+Synthesizing Unit <shift4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/shift4.vhd".
+Unit <shift4> synthesized.
+
+
+Synthesizing Unit <ucmp4>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp4.vhd".
+Unit <ucmp4> synthesized.
+
+
+Synthesizing Unit <sequencer>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/sequencer.vhd".
+WARNING:Xst:647 - Input <monitor<37>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <monitor<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ir<12:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <c> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <v> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <dcond<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dcond<13:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dcond<7>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dcond<5:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dcond<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit register for signal <state>.
+    Found 5-bit register for signal <wdreg>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <sequencer> synthesized.
+
+
+Synthesizing Unit <decoder5to32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/decoder5to32.vhd".
+Unit <decoder5to32> synthesized.
+
+
+Synthesizing Unit <adder16>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/adder16.vhd".
+Unit <adder16> synthesized.
+
+
+Synthesizing Unit <shift8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/shift8.vhd".
+Unit <shift8> synthesized.
+
+
+Synthesizing Unit <ucmp8>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp8.vhd".
+Unit <ucmp8> synthesized.
+
+
+Synthesizing Unit <registres>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/registres.vhd".
+WARNING:Xst:646 - Signal <decc<25:23>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <decc<20:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <decc<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <decb<25:23>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <decb<19:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <deca<25:23>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <deca<19:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit tristate buffer for signal <abus>.
+    Found 32-bit tristate buffer for signal <bbus>.
+    Summary:
+	inferred 1216 Tristate(s).
+Unit <registres> synthesized.
+
+
+Synthesizing Unit <decoder6to64>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/decoder6to64.vhd".
+Unit <decoder6to64> synthesized.
+
+
+Synthesizing Unit <adder32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/adder32.vhd".
+Unit <adder32> synthesized.
+
+
+Synthesizing Unit <shift16>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/shift16.vhd".
+Unit <shift16> synthesized.
+
+
+Synthesizing Unit <ucmp16>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp16.vhd".
+Unit <ucmp16> synthesized.
+
+
+Synthesizing Unit <addsub32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/addsub32.vhd".
+Unit <addsub32> synthesized.
+
+
+Synthesizing Unit <barrelshifter32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/barrelshifter32.vhd".
+Unit <barrelshifter32> synthesized.
+
+
+Synthesizing Unit <ucmp32>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ucmp32.vhd".
+Unit <ucmp32> synthesized.
+
+
+Synthesizing Unit <ual>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/ual.vhd".
+WARNING:Xst:646 - Signal <sup> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<63:41>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<39:36>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<34>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<31:27>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<25:21>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <commanddec<12:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <ual> synthesized.
+
+
+Synthesizing Unit <micromachine>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/micromachine.vhd".
+WARNING:Xst:646 - Signal <oe<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cs<15:12>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cs<10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cs<8:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit tristate buffer for signal <dbus>.
+    Found 1-bit register for signal <c>.
+    Found 1-bit register for signal <n>.
+    Found 1-bit register for signal <v>.
+    Found 1-bit register for signal <z>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred 128 Tristate(s).
+Unit <micromachine> synthesized.
+
+
+Synthesizing Unit <craps0>.
+    Related source file is "//n7fs/hboukrai/Archi/vhdl/craps0.vhd".
+WARNING:Xst:647 - Input <btn<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <pc2board<127:64>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pc2board<58:56>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pc2board<54:38>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock<27:20>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock<18:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clock<3:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <board2pc<127:64>> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000000000000000000000000000000000000000000.
+WARNING:Xst:653 - Signal <board2pc<56:32>> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000000.
+    Found 128-bit register for signal <pc2board>.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+Unit <craps0> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x32-bit single-port RAM                            : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Registers                                            : 184
+ 1-bit register                                        : 160
+ 128-bit register                                      : 1
+ 32-bit register                                       : 17
+ 4-bit register                                        : 2
+ 5-bit register                                        : 1
+ 8-bit register                                        : 3
+# Multiplexers                                         : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+# Tristates                                            : 43
+ 32-bit tristate buffer                                : 42
+ 8-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <clock4_5> is unconnected in block <clock28_0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <clock4_6> is unconnected in block <clock28_0>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <pc2board_40> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_41> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_37> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_42> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_38> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_43> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_39> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_44> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_45> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_50> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_46> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_51> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_47> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_52> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_53> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_48> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_54> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_49> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_56> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_57> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_100> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_101> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_58> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_102> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_64> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_70> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_103> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_65> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_71> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_104> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_66> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_67> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_105> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_110> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_72> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_106> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_111> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_73> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_68> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_69> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_112> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_107> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_74> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_75> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_113> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_108> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_80> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_76> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_81> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_114> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_109> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_77> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_120> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_115> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_82> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_78> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_121> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_116> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_83> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_122> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_117> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_84> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_79> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_85> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_123> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_118> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_90> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_86> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_124> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_119> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_91> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_125> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_87> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_92> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_126> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_88> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_93> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_94> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_127> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_89> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_95> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_96> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_97> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_98> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_99> of sequential type is unconnected in block <commUSB_1>.
+WARNING:Xst:2677 - Node <pc2board_37> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_38> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_39> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_40> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_41> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_42> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_43> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_44> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_45> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_46> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_47> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_48> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_49> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_50> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_51> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_52> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_53> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_54> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_56> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_57> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_58> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_64> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_65> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_66> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_67> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_68> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_69> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_70> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_71> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_72> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_73> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_74> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_75> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_76> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_77> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_78> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_79> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_80> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_81> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_82> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_83> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_84> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_85> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_86> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_87> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_88> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_89> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_90> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_91> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_92> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_93> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_94> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_95> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_96> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_97> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_98> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_99> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_100> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_101> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_102> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_103> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_104> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_105> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_106> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_107> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_108> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_109> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_110> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_111> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_112> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_113> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_114> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_115> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_116> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_117> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_118> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_119> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_120> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_121> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_122> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_123> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_124> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_125> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_126> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_127> of sequential type is unconnected in block <craps0>.
+
+Synthesizing (advanced) Unit <rams_asyn_read512x32>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_RAM> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 32-bit                   |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <di>            |          |
+    |     doA            | connected to signal <do>            |          |
+    -----------------------------------------------------------------------
+Unit <rams_asyn_read512x32> synthesized (advanced).
+WARNING:Xst:2677 - Node <pc2board_38> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_39> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_40> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_41> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_42> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_43> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_44> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_45> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_46> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_47> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_48> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_49> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_50> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_51> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_52> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_53> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_54> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_56> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_57> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_58> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_64> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_65> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_66> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_67> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_68> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_69> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_70> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_71> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_72> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_73> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_74> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_75> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_76> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_77> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_78> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_79> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_80> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_81> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_82> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_83> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_84> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_85> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_86> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_87> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_88> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_89> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_90> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_91> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_92> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_93> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_94> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_95> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_96> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_97> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_98> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_99> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_100> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_101> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_102> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_103> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_104> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_105> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_106> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_107> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_108> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_109> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_110> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_111> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_112> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_113> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_114> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_115> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_116> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_117> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_118> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_119> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_120> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_121> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_122> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_123> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_124> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_125> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_126> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <pc2board_127> of sequential type is unconnected in block <craps0>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 512x32-bit single-port distributed RAM                : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Registers                                            : 785
+ Flip-Flops                                            : 785
+# Multiplexers                                         : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_99> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_98> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_97> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_96> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_95> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_89> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_127> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_94> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_93> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_88> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_126> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_92> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_87> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_125> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_91> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_119> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_124> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_86> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_90> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_118> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_123> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_85> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_79> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_84> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_117> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_122> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_83> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_116> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_121> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_78> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_82> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_115> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_120> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_77> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_109> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_114> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_81> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_76> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_80> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_108> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_113> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_75> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_74> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_107> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_112> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_69> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_68> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_73> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_111> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_106> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_72> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_110> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_105> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_67> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_66> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_104> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_71> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_65> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_103> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_70> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_64> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_102> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_58> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_101> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_100> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_57> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_56> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_49> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_54> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_48> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_53> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_52> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_47> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_51> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_46> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_50> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_45> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_44> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_39> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_43> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_38> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_42> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_41> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_40> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2040 - Unit micromachine: 32 multi-source signals are replaced by logic (pull-up yes): dbus<0>, dbus<10>, dbus<11>, dbus<12>, dbus<13>, dbus<14>, dbus<15>, dbus<16>, dbus<17>, dbus<18>, dbus<19>, dbus<1>, dbus<20>, dbus<21>, dbus<22>, dbus<23>, dbus<24>, dbus<25>, dbus<26>, dbus<27>, dbus<28>, dbus<29>, dbus<2>, dbus<30>, dbus<31>, dbus<3>, dbus<4>, dbus<5>, dbus<6>, dbus<7>, dbus<8>, dbus<9>.
+WARNING:Xst:2040 - Unit registres: 64 multi-source signals are replaced by logic (pull-up yes): abus<0>, abus<10>, abus<11>, abus<12>, abus<13>, abus<14>, abus<15>, abus<16>, abus<17>, abus<18>, abus<19>, abus<1>, abus<20>, abus<21>, abus<22>, abus<23>, abus<24>, abus<25>, abus<26>, abus<27>, abus<28>, abus<29>, abus<2>, abus<30>, abus<31>, abus<3>, abus<4>, abus<5>, abus<6>, abus<7>, abus<8>, abus<9>, bbus<0>, bbus<10>, bbus<11>, bbus<12>, bbus<13>, bbus<14>, bbus<15>, bbus<16>, bbus<17>, bbus<18>, bbus<19>, bbus<1>, bbus<20>, bbus<21>, bbus<22>, bbus<23>, bbus<24>, bbus<25>, bbus<26>, bbus<27>, bbus<28>, bbus<29>, bbus<2>, bbus<30>, bbus<31>, bbus<3>, bbus<4>, bbus<5>, bbus<6>, bbus<7>, bbus<8>, bbus<9>.
+
+Optimizing unit <craps0> ...
+
+Optimizing unit <clock4> ...
+
+Optimizing unit <reg8> ...
+
+Optimizing unit <decoder4to16> ...
+
+Optimizing unit <sequencer> ...
+
+Optimizing unit <decoder5to32> ...
+
+Optimizing unit <registres> ...
+
+Optimizing unit <decoder6to64> ...
+
+Optimizing unit <addsub32> ...
+
+Optimizing unit <ual> ...
+
+Optimizing unit <micromachine> ...
+WARNING:Xst:2677 - Node <pc2board_37> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <commUSB_1/pc2board_37> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_5/s_int_3> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_5/s_int_2> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_5/s_int_1> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_5/s_int_0> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_6/s_int_3> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_6/s_int_2> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_6/s_int_1> of sequential type is unconnected in block <craps0>.
+WARNING:Xst:2677 - Node <clock28_0/clock4_6/s_int_0> of sequential type is unconnected in block <craps0>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block craps0, actual ratio is 18.
+FlipFlop micromachine_3/registres_2/reg32_19/q_int_29 has been replicated 1 time(s)
+FlipFlop pc2board_59 has been replicated 1 time(s)
+FlipFlop sequencer_2/state_0 has been replicated 1 time(s)
+FlipFlop sequencer_2/state_1 has been replicated 2 time(s)
+FlipFlop sequencer_2/state_2 has been replicated 2 time(s)
+FlipFlop sequencer_2/state_3 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 700
+ Flip-Flops                                            : 700
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : craps0.ngr
+Top Level Output File Name         : craps0
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 3911
+#      BUF                         : 5
+#      GND                         : 1
+#      INV                         : 20
+#      LUT2                        : 65
+#      LUT2_D                      : 14
+#      LUT2_L                      : 13
+#      LUT3                        : 775
+#      LUT3_D                      : 40
+#      LUT3_L                      : 40
+#      LUT4                        : 1606
+#      LUT4_D                      : 198
+#      LUT4_L                      : 229
+#      MUXCY                       : 490
+#      MUXF5                       : 318
+#      MUXF6                       : 64
+#      MUXF7                       : 32
+#      VCC                         : 1
+# FlipFlops/Latches                : 700
+#      FD                          : 2
+#      FDC                         : 55
+#      FDC_1                       : 20
+#      FDCE                        : 570
+#      FDE                         : 47
+#      FDR                         : 2
+#      FDS                         : 4
+# RAMS                             : 512
+#      RAM32X1S                    : 512
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 12
+#      IOBUF                       : 8
+#      OBUF                        : 9
+# MULTs                            : 1
+#      MULT18X18SIO                : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-5 
+
+ Number of Slices:                     2078  out of   8672    23%  
+ Number of Slice Flip Flops:            692  out of  17344     3%  
+ Number of 4 input LUTs:               4024  out of  17344    23%  
+    Number used as logic:              3000
+    Number used as RAMs:               1024
+ Number of IOs:                          33
+ Number of bonded IOBs:                  30  out of    250    12%  
+    IOB Flip Flops:                       8
+ Number of MULT18X18SIOs:                 1  out of     28     3%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)           | Load  |
+-----------------------------------+---------------------------------+-------+
+clock28_0/clock4_1/s_int_01        | BUFG                            | 1130  |
+mclk                               | BUFGP                           | 56    |
+clock28_0/clock4_0/s_int_2         | NONE(clock28_0/clock4_0/s_int_3)| 1     |
+clock28_0/clock4_0/s_int_1         | NONE(clock28_0/clock4_0/s_int_2)| 1     |
+clock28_0/clock4_0/s_int_0         | NONE(clock28_0/clock4_0/s_int_1)| 1     |
+clock28_0/clock4_1/s_int_2         | NONE(clock28_0/clock4_1/s_int_3)| 1     |
+clock28_0/clock4_1/s_int_1         | NONE(clock28_0/clock4_1/s_int_2)| 1     |
+clock28_0/clock4_0/s_int_3         | NONE(clock28_0/clock4_1/s_int_0)| 1     |
+clock28_0/clock4_2/s_int_2         | NONE(clock28_0/clock4_2/s_int_3)| 1     |
+clock28_0/clock4_2/s_int_1         | NONE(clock28_0/clock4_2/s_int_2)| 1     |
+clock28_0/clock4_2/s_int_0         | NONE(clock28_0/clock4_2/s_int_1)| 1     |
+clock28_0/clock4_1/s_int_3         | NONE(clock28_0/clock4_2/s_int_0)| 1     |
+clock28_0/clock4_3/s_int_2         | NONE(clock28_0/clock4_3/s_int_3)| 1     |
+clock28_0/clock4_3/s_int_1         | NONE(clock28_0/clock4_3/s_int_2)| 1     |
+clock28_0/clock4_3/s_int_0         | NONE(clock28_0/clock4_3/s_int_1)| 1     |
+clock28_0/clock4_2/s_int_3         | NONE(clock28_0/clock4_3/s_int_0)| 1     |
+clock28_0/clock4_4/s_int_2         | NONE(clock28_0/clock4_4/s_int_3)| 1     |
+clock28_0/clock4_4/s_int_1         | NONE(clock28_0/clock4_4/s_int_2)| 1     |
+clock28_0/clock4_4/s_int_0         | NONE(clock28_0/clock4_4/s_int_1)| 1     |
+clock28_0/clock4_3/s_int_3         | NONE(clock28_0/clock4_4/s_int_0)| 1     |
+clock28_0/clock4_4/s_int_3         | NONE(micromachine_3/reg8_5/q_0) | 8     |
+-----------------------------------+---------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                  | Load  |
+-----------------------------------+--------------------------------------------------+-------+
+btn_0_IBUF_1(btn_0_IBUF_1:O)       | NONE(micromachine_3/registres_2/reg32_18/q_int_5)| 324   |
+btn<0>                             | IBUF                                             | 321   |
+-----------------------------------+--------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 24.042ns (Maximum Frequency: 41.593MHz)
+   Minimum input arrival time before clock: 6.306ns
+   Maximum output required time after clock: 28.558ns
+   Maximum combinational path delay: 7.519ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'mclk'
+  Clock period: 5.903ns (frequency: 169.407MHz)
+  Total number of paths / destination ports: 389 / 60
+-------------------------------------------------------------------------
+Delay:               5.903ns (Levels of Logic = 4)
+  Source:            commUSB_1/stEppCur_0 (FF)
+  Destination:       commUSB_1/stEppCur_5 (FF)
+  Source Clock:      mclk rising
+  Destination Clock: mclk rising
+
+  Data Path: commUSB_1/stEppCur_0 to commUSB_1/stEppCur_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             11   0.514   0.862  commUSB_1/stEppCur_0 (commUSB_1/stEppCur_0)
+     LUT3:I1->O            4   0.612   0.651  commUSB_1/stEppNext<5>321 (N13)
+     LUT4:I0->O            4   0.612   0.651  commUSB_1/stEppNext<5>4 (N8)
+     LUT4:I0->O            1   0.612   0.509  commUSB_1/stEppNext<5>351 (commUSB_1/stEppNext<5>351)
+     LUT3:I0->O            1   0.612   0.000  commUSB_1/stEppNext<5>3811 (commUSB_1/stEppNext<5>381)
+     FDS:D                     0.268          commUSB_1/stEppCur_5
+    ----------------------------------------
+    Total                      5.903ns (3.230ns logic, 2.673ns route)
+                                       (54.7% logic, 45.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_0/s_int_2'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_0/s_int_3 (FF)
+  Destination:       clock28_0/clock4_0/s_int_3 (FF)
+  Source Clock:      clock28_0/clock4_0/s_int_2 falling
+  Destination Clock: clock28_0/clock4_0/s_int_2 falling
+
+  Data Path: clock28_0/clock4_0/s_int_3 to clock28_0/clock4_0/s_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_0/s_int_3 (clock28_0/clock4_0/s_int_3)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_0/s_int_3_not00011_INV_0 (clock28_0/clock4_0/s_int_3_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_0/s_int_3
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_0/s_int_1'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_0/s_int_2 (FF)
+  Destination:       clock28_0/clock4_0/s_int_2 (FF)
+  Source Clock:      clock28_0/clock4_0/s_int_1 falling
+  Destination Clock: clock28_0/clock4_0/s_int_1 falling
+
+  Data Path: clock28_0/clock4_0/s_int_2 to clock28_0/clock4_0/s_int_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_0/s_int_2 (clock28_0/clock4_0/s_int_2)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_0/s_int_2_not00011_INV_0 (clock28_0/clock4_0/s_int_2_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_0/s_int_2
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_0/s_int_0'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_0/s_int_1 (FF)
+  Destination:       clock28_0/clock4_0/s_int_1 (FF)
+  Source Clock:      clock28_0/clock4_0/s_int_0 falling
+  Destination Clock: clock28_0/clock4_0/s_int_0 falling
+
+  Data Path: clock28_0/clock4_0/s_int_1 to clock28_0/clock4_0/s_int_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_0/s_int_1 (clock28_0/clock4_0/s_int_1)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_0/s_int_1_not00011_INV_0 (clock28_0/clock4_0/s_int_1_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_0/s_int_1
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_1/s_int_2'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_1/s_int_3 (FF)
+  Destination:       clock28_0/clock4_1/s_int_3 (FF)
+  Source Clock:      clock28_0/clock4_1/s_int_2 falling
+  Destination Clock: clock28_0/clock4_1/s_int_2 falling
+
+  Data Path: clock28_0/clock4_1/s_int_3 to clock28_0/clock4_1/s_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_1/s_int_3 (clock28_0/clock4_1/s_int_3)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_1/s_int_3_not00011_INV_0 (clock28_0/clock4_1/s_int_3_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_1/s_int_3
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_1/s_int_1'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_1/s_int_2 (FF)
+  Destination:       clock28_0/clock4_1/s_int_2 (FF)
+  Source Clock:      clock28_0/clock4_1/s_int_1 falling
+  Destination Clock: clock28_0/clock4_1/s_int_1 falling
+
+  Data Path: clock28_0/clock4_1/s_int_2 to clock28_0/clock4_1/s_int_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_1/s_int_2 (clock28_0/clock4_1/s_int_2)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_1/s_int_2_not00011_INV_0 (clock28_0/clock4_1/s_int_2_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_1/s_int_2
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_1/s_int_01'
+  Clock period: 24.042ns (frequency: 41.593MHz)
+  Total number of paths / destination ports: 4262565074 / 4720
+-------------------------------------------------------------------------
+Delay:               24.042ns (Levels of Logic = 26)
+  Source:            micromachine_3/registres_2/reg32_19/q_int_26 (FF)
+  Destination:       micromachine_3/z (FF)
+  Source Clock:      clock28_0/clock4_1/s_int_01 rising
+  Destination Clock: clock28_0/clock4_1/s_int_01 rising
+
+  Data Path: micromachine_3/registres_2/reg32_19/q_int_26 to micromachine_3/z
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.514   0.902  micromachine_3/registres_2/reg32_19/q_int_26 (micromachine_3/registres_2/reg32_19/q_int_26)
+     LUT4:I0->O            1   0.612   0.000  sequencer_2/test_F (N3174)
+     MUXF5:I0->O           7   0.278   0.671  sequencer_2/test (sequencer_2/test)
+     LUT4:I1->O            1   0.612   0.000  sequencer_2/dreg_or000421_1_F (N3214)
+     MUXF5:I0->O           8   0.278   0.712  sequencer_2/dreg_or000421_1 (sequencer_2/dreg_or000421)
+     LUT2_D:I1->O          8   0.612   0.646  sequencer_2/dreg_or0003141_SW0_1 (sequencer_2/dreg_or0003141_SW0)
+     LUT4_D:I3->O          4   0.612   0.529  sequencer_2/areg_or00031 (areg<1>)
+     LUT4:I2->O            1   0.612   0.000  micromachine_3/registres_2/abus<0>LogicTrst185_SW0_SW2_G (N2949)
+     MUXF5:I1->O           1   0.278   0.387  micromachine_3/registres_2/abus<0>LogicTrst185_SW0_SW2 (N1442)
+     LUT4:I2->O           14   0.612   0.853  micromachine_3/registres_2/abus<0>LogicTrst185 (micromachine_3/registres_2/abus<0>LogicTrst185)
+     LUT4:I3->O           30   0.612   1.075  micromachine_3/registres_2/abus<0>LogicTrst1112_SW4 (N682)
+     LUT4:I3->O           19   0.612   0.925  micromachine_3/registres_2/abus<10>LogicTrst51 (micromachine_3/abus<10>)
+     LUT4:I3->O            5   0.612   0.568  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_2/cout1_SW1 (N265)
+     LUT3_D:I2->O          6   0.612   0.721  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_3/cout1_SW1 (N414)
+     LUT3:I0->O            2   0.612   0.410  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_1/cout1_SW8 (N1399)
+     LUT3:I2->O           17   0.612   0.896  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_1/fulladder_1/cout1 (micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_1/c1)
+     LUT4:I3->O            2   0.612   0.410  micromachine_3/ual_4/s_int<16>141_SW0_SW0 (N1107)
+     LUT4_L:I2->LO         1   0.612   0.103  micromachine_3/ual_4/s_int<16>289_SW0_SW0_SW0 (N2632)
+     LUT4:I3->O            1   0.612   0.360  micromachine_3/ual_4/s_int<26>305_SW0_SW0_SW0_SW0 (N1720)
+     LUT4:I3->O            1   0.612   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_lut<2> (micromachine_3/ual_4/ucmp32_6/eq_wg_lut<2>)
+     MUXCY:S->O            1   0.404   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<2> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<3> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<4> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<5> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<6> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<6>)
+     MUXCY:CI->O           2   0.289   0.383  micromachine_3/ual_4/ucmp32_6/eq_wg_cy<7> (micromachine_3/ual_4/ucmp32_6/eq_wg_cy<7>)
+     LUT4:I3->O            1   0.612   0.357  micromachine_3/zaux1 (micromachine_3/zaux1)
+     FDCE:CE                   0.483          micromachine_3/z
+    ----------------------------------------
+    Total                     24.042ns (13.134ns logic, 10.909ns route)
+                                       (54.6% logic, 45.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_0/s_int_3'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_1/s_int_0 (FF)
+  Destination:       clock28_0/clock4_1/s_int_0 (FF)
+  Source Clock:      clock28_0/clock4_0/s_int_3 falling
+  Destination Clock: clock28_0/clock4_0/s_int_3 falling
+
+  Data Path: clock28_0/clock4_1/s_int_0 to clock28_0/clock4_1/s_int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_1/s_int_0 (clock28_0/clock4_1/s_int_01)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_1/s_int_0_not00011_INV_0 (clock28_0/clock4_1/s_int_0_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_1/s_int_0
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_2/s_int_2'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_2/s_int_3 (FF)
+  Destination:       clock28_0/clock4_2/s_int_3 (FF)
+  Source Clock:      clock28_0/clock4_2/s_int_2 falling
+  Destination Clock: clock28_0/clock4_2/s_int_2 falling
+
+  Data Path: clock28_0/clock4_2/s_int_3 to clock28_0/clock4_2/s_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_2/s_int_3 (clock28_0/clock4_2/s_int_3)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_2/s_int_3_not00011_INV_0 (clock28_0/clock4_2/s_int_3_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_2/s_int_3
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_2/s_int_1'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_2/s_int_2 (FF)
+  Destination:       clock28_0/clock4_2/s_int_2 (FF)
+  Source Clock:      clock28_0/clock4_2/s_int_1 falling
+  Destination Clock: clock28_0/clock4_2/s_int_1 falling
+
+  Data Path: clock28_0/clock4_2/s_int_2 to clock28_0/clock4_2/s_int_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_2/s_int_2 (clock28_0/clock4_2/s_int_2)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_2/s_int_2_not00011_INV_0 (clock28_0/clock4_2/s_int_2_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_2/s_int_2
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_2/s_int_0'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_2/s_int_1 (FF)
+  Destination:       clock28_0/clock4_2/s_int_1 (FF)
+  Source Clock:      clock28_0/clock4_2/s_int_0 falling
+  Destination Clock: clock28_0/clock4_2/s_int_0 falling
+
+  Data Path: clock28_0/clock4_2/s_int_1 to clock28_0/clock4_2/s_int_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_2/s_int_1 (clock28_0/clock4_2/s_int_1)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_2/s_int_1_not00011_INV_0 (clock28_0/clock4_2/s_int_1_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_2/s_int_1
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_1/s_int_3'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_2/s_int_0 (FF)
+  Destination:       clock28_0/clock4_2/s_int_0 (FF)
+  Source Clock:      clock28_0/clock4_1/s_int_3 falling
+  Destination Clock: clock28_0/clock4_1/s_int_3 falling
+
+  Data Path: clock28_0/clock4_2/s_int_0 to clock28_0/clock4_2/s_int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_2/s_int_0 (clock28_0/clock4_2/s_int_0)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_2/s_int_0_not00011_INV_0 (clock28_0/clock4_2/s_int_0_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_2/s_int_0
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_3/s_int_2'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_3/s_int_3 (FF)
+  Destination:       clock28_0/clock4_3/s_int_3 (FF)
+  Source Clock:      clock28_0/clock4_3/s_int_2 falling
+  Destination Clock: clock28_0/clock4_3/s_int_2 falling
+
+  Data Path: clock28_0/clock4_3/s_int_3 to clock28_0/clock4_3/s_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_3/s_int_3 (clock28_0/clock4_3/s_int_3)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_3/s_int_3_not00011_INV_0 (clock28_0/clock4_3/s_int_3_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_3/s_int_3
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_3/s_int_1'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_3/s_int_2 (FF)
+  Destination:       clock28_0/clock4_3/s_int_2 (FF)
+  Source Clock:      clock28_0/clock4_3/s_int_1 falling
+  Destination Clock: clock28_0/clock4_3/s_int_1 falling
+
+  Data Path: clock28_0/clock4_3/s_int_2 to clock28_0/clock4_3/s_int_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_3/s_int_2 (clock28_0/clock4_3/s_int_2)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_3/s_int_2_not00011_INV_0 (clock28_0/clock4_3/s_int_2_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_3/s_int_2
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_3/s_int_0'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_3/s_int_1 (FF)
+  Destination:       clock28_0/clock4_3/s_int_1 (FF)
+  Source Clock:      clock28_0/clock4_3/s_int_0 falling
+  Destination Clock: clock28_0/clock4_3/s_int_0 falling
+
+  Data Path: clock28_0/clock4_3/s_int_1 to clock28_0/clock4_3/s_int_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_3/s_int_1 (clock28_0/clock4_3/s_int_1)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_3/s_int_1_not00011_INV_0 (clock28_0/clock4_3/s_int_1_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_3/s_int_1
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_2/s_int_3'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_3/s_int_0 (FF)
+  Destination:       clock28_0/clock4_3/s_int_0 (FF)
+  Source Clock:      clock28_0/clock4_2/s_int_3 falling
+  Destination Clock: clock28_0/clock4_2/s_int_3 falling
+
+  Data Path: clock28_0/clock4_3/s_int_0 to clock28_0/clock4_3/s_int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_3/s_int_0 (clock28_0/clock4_3/s_int_0)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_3/s_int_0_not00011_INV_0 (clock28_0/clock4_3/s_int_0_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_3/s_int_0
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_4/s_int_2'
+  Clock period: 2.448ns (frequency: 408.497MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.448ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_4/s_int_3 (FF)
+  Destination:       clock28_0/clock4_4/s_int_3 (FF)
+  Source Clock:      clock28_0/clock4_4/s_int_2 falling
+  Destination Clock: clock28_0/clock4_4/s_int_2 falling
+
+  Data Path: clock28_0/clock4_4/s_int_3 to clock28_0/clock4_4/s_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            9   0.514   0.697  clock28_0/clock4_4/s_int_3 (clock28_0/clock4_4/s_int_3)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_4/s_int_3_not00011_INV_0 (clock28_0/clock4_4/s_int_3_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_4/s_int_3
+    ----------------------------------------
+    Total                      2.448ns (1.394ns logic, 1.054ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_4/s_int_1'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_4/s_int_2 (FF)
+  Destination:       clock28_0/clock4_4/s_int_2 (FF)
+  Source Clock:      clock28_0/clock4_4/s_int_1 falling
+  Destination Clock: clock28_0/clock4_4/s_int_1 falling
+
+  Data Path: clock28_0/clock4_4/s_int_2 to clock28_0/clock4_4/s_int_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_4/s_int_2 (clock28_0/clock4_4/s_int_2)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_4/s_int_2_not00011_INV_0 (clock28_0/clock4_4/s_int_2_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_4/s_int_2
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_4/s_int_0'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_4/s_int_1 (FF)
+  Destination:       clock28_0/clock4_4/s_int_1 (FF)
+  Source Clock:      clock28_0/clock4_4/s_int_0 falling
+  Destination Clock: clock28_0/clock4_4/s_int_0 falling
+
+  Data Path: clock28_0/clock4_4/s_int_1 to clock28_0/clock4_4/s_int_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_4/s_int_1 (clock28_0/clock4_4/s_int_1)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_4/s_int_1_not00011_INV_0 (clock28_0/clock4_4/s_int_1_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_4/s_int_1
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock28_0/clock4_3/s_int_3'
+  Clock period: 2.131ns (frequency: 469.274MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.131ns (Levels of Logic = 1)
+  Source:            clock28_0/clock4_4/s_int_0 (FF)
+  Destination:       clock28_0/clock4_4/s_int_0 (FF)
+  Source Clock:      clock28_0/clock4_3/s_int_3 falling
+  Destination Clock: clock28_0/clock4_3/s_int_3 falling
+
+  Data Path: clock28_0/clock4_4/s_int_0 to clock28_0/clock4_4/s_int_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.514   0.380  clock28_0/clock4_4/s_int_0 (clock28_0/clock4_4/s_int_0)
+     INV:I->O              1   0.612   0.357  clock28_0/clock4_4/s_int_0_not00011_INV_0 (clock28_0/clock4_4/s_int_0_not0001)
+     FDC_1:D                   0.268          clock28_0/clock4_4/s_int_0
+    ----------------------------------------
+    Total                      2.131ns (1.394ns logic, 0.737ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'mclk'
+  Total number of paths / destination ports: 73 / 60
+-------------------------------------------------------------------------
+Offset:              6.306ns (Levels of Logic = 6)
+  Source:            astb (PAD)
+  Destination:       commUSB_1/stEppCur_1 (FF)
+  Destination Clock: mclk rising
+
+  Data Path: astb to commUSB_1/stEppCur_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.106   0.977  astb_IBUF (astb_IBUF)
+     LUT3:I1->O            1   0.612   0.360  commUSB_1/stEppNext<1>17 (commUSB_1/stEppNext<1>17)
+     LUT4:I3->O            1   0.612   0.000  commUSB_1/stEppNext<1>71_SW0_F (N3142)
+     MUXF5:I0->O           1   0.278   0.360  commUSB_1/stEppNext<1>71_SW0 (N3048)
+     LUT4:I3->O            1   0.612   0.509  commUSB_1/stEppNext<1>71 (commUSB_1/stEppNext<1>71)
+     LUT4:I0->O            1   0.612   0.000  commUSB_1/stEppNext<1>1101 (commUSB_1/stEppNext<1>110)
+     FDS:D                     0.268          commUSB_1/stEppCur_1
+    ----------------------------------------
+    Total                      6.306ns (4.100ns logic, 2.206ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock28_0/clock4_4/s_int_3'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            sw<0> (PAD)
+  Destination:       micromachine_3/reg8_5/q_0 (FF)
+  Destination Clock: clock28_0/clock4_4/s_int_3 rising
+
+  Data Path: sw<0> to micromachine_3/reg8_5/q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  sw_0_IBUF (sw_0_IBUF)
+     FDCE:D                    0.268          micromachine_3/reg8_5/q_0
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mclk'
+  Total number of paths / destination ports: 78 / 9
+-------------------------------------------------------------------------
+Offset:              8.161ns (Levels of Logic = 5)
+  Source:            commUSB_1/regEppAdr_0 (FF)
+  Destination:       pdb<2> (PAD)
+  Source Clock:      mclk rising
+
+  Data Path: commUSB_1/regEppAdr_0 to pdb<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             21   0.514   1.111  commUSB_1/regEppAdr_0 (commUSB_1/regEppAdr_0)
+     LUT3:I0->O            1   0.612   0.000  commUSB_1/Mmux_busEppData_92 (commUSB_1/Mmux_busEppData_92)
+     MUXF5:I1->O           1   0.278   0.387  commUSB_1/Mmux_busEppData_8_f5_0 (commUSB_1/Mmux_busEppData_8_f51)
+     LUT4:I2->O            1   0.612   0.509  commUSB_1/busEppOut<2>_SW2 (N3050)
+     LUT3:I0->O            1   0.612   0.357  commUSB_1/busEppOut<2> (commUSB_1/busEppOut<2>)
+     IOBUF:I->IO               3.169          pdb_2_IOBUF (pdb<2>)
+    ----------------------------------------
+    Total                      8.161ns (5.797ns logic, 2.364ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock28_0/clock4_1/s_int_01'
+  Total number of paths / destination ports: 120406428 / 16
+-------------------------------------------------------------------------
+Offset:              28.558ns (Levels of Logic = 24)
+  Source:            micromachine_3/registres_2/reg32_19/q_int_26 (FF)
+  Destination:       pdb<1> (PAD)
+  Source Clock:      clock28_0/clock4_1/s_int_01 rising
+
+  Data Path: micromachine_3/registres_2/reg32_19/q_int_26 to pdb<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.514   0.902  micromachine_3/registres_2/reg32_19/q_int_26 (micromachine_3/registres_2/reg32_19/q_int_26)
+     LUT4:I0->O            1   0.612   0.000  sequencer_2/test_F (N3174)
+     MUXF5:I0->O           7   0.278   0.671  sequencer_2/test (sequencer_2/test)
+     LUT4:I1->O            1   0.612   0.000  sequencer_2/dreg_or000421_1_F (N3214)
+     MUXF5:I0->O           8   0.278   0.712  sequencer_2/dreg_or000421_1 (sequencer_2/dreg_or000421)
+     LUT2_D:I1->O          8   0.612   0.646  sequencer_2/dreg_or0003141_SW0_1 (sequencer_2/dreg_or0003141_SW0)
+     LUT4_D:I3->O          4   0.612   0.529  sequencer_2/areg_or00031 (areg<1>)
+     LUT4:I2->O            1   0.612   0.000  micromachine_3/registres_2/abus<0>LogicTrst185_SW0_SW2_G (N2949)
+     MUXF5:I1->O           1   0.278   0.387  micromachine_3/registres_2/abus<0>LogicTrst185_SW0_SW2 (N1442)
+     LUT4:I2->O           14   0.612   0.853  micromachine_3/registres_2/abus<0>LogicTrst185 (micromachine_3/registres_2/abus<0>LogicTrst185)
+     LUT4:I3->O           30   0.612   1.075  micromachine_3/registres_2/abus<0>LogicTrst1112_SW4 (N682)
+     LUT4:I3->O           19   0.612   0.925  micromachine_3/registres_2/abus<10>LogicTrst51 (micromachine_3/abus<10>)
+     LUT4:I3->O            5   0.612   0.568  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_2/cout1_SW1 (N265)
+     LUT3_D:I2->O          6   0.612   0.721  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_3/cout1_SW1 (N414)
+     LUT3:I0->O            2   0.612   0.410  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_0/fulladder_1/cout1_SW8 (N1399)
+     LUT3:I2->O           17   0.612   0.896  micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_1/fulladder_1/cout1 (micromachine_3/ual_4/addsub32_1/adder32_0/adder16_0/adder8_1/adder4_1/c1)
+     LUT4_L:I3->LO         1   0.612   0.103  micromachine_3/ual_4/s_int<25>216 (micromachine_3/ual_4/s_int<25>216)
+     LUT4:I3->O            1   0.612   0.360  micromachine_3/ual_4/s_int<25>157_SW1 (N1967)
+     LUT4_L:I3->LO         1   0.612   0.103  micromachine_3/ual_4/s_int<25>305 (micromachine_3/dbus_ual<25>)
+     LUT4:I3->O           34   0.612   1.103  micromachine_3/dbus<25>LogicTrst25 (dbus<25>)
+     LUT3:I2->O            1   0.612   0.000  commUSB_1/Mmux_busEppData_91 (commUSB_1/Mmux_busEppData_91)
+     MUXF5:I1->O           1   0.278   0.426  commUSB_1/Mmux_busEppData_8_f5 (commUSB_1/Mmux_busEppData_8_f5)
+     LUT4:I1->O            1   0.612   0.387  commUSB_1/busEppOut<1>26_SW0 (N3064)
+     LUT4:I2->O            1   0.612   0.357  commUSB_1/busEppOut<1>26 (commUSB_1/busEppOut<1>)
+     IOBUF:I->IO               3.169          pdb_1_IOBUF (pdb<1>)
+    ----------------------------------------
+    Total                     28.558ns (16.423ns logic, 12.135ns route)
+                                       (57.5% logic, 42.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock28_0/clock4_4/s_int_3'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              10.984ns (Levels of Logic = 8)
+  Source:            micromachine_3/reg8_5/q_2 (FF)
+  Destination:       pdb<2> (PAD)
+  Source Clock:      clock28_0/clock4_4/s_int_3 rising
+
+  Data Path: micromachine_3/reg8_5/q_2 to pdb<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.514   0.426  micromachine_3/reg8_5/q_2 (micromachine_3/reg8_5/q_2)
+     LUT2:I1->O            1   0.612   0.360  micromachine_3/dbus<2>LogicTrst10_SW0 (N2298)
+     LUT4_L:I3->LO         1   0.612   0.169  micromachine_3/dbus<2>LogicTrst19_SW0 (N2279)
+     LUT4:I1->O           35   0.612   1.143  micromachine_3/dbus<2>LogicTrst31 (dbus<2>)
+     LUT3:I1->O            1   0.612   0.000  commUSB_1/Mmux_busEppData_102 (commUSB_1/Mmux_busEppData_102)
+     MUXF5:I0->O           1   0.278   0.387  commUSB_1/Mmux_busEppData_8_f5_0 (commUSB_1/Mmux_busEppData_8_f51)
+     LUT4:I2->O            1   0.612   0.509  commUSB_1/busEppOut<2>_SW2 (N3050)
+     LUT3:I0->O            1   0.612   0.357  commUSB_1/busEppOut<2> (commUSB_1/busEppOut<2>)
+     IOBUF:I->IO               3.169          pdb_2_IOBUF (pdb<2>)
+    ----------------------------------------
+    Total                     10.984ns (7.633ns logic, 3.351ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 24 / 8
+-------------------------------------------------------------------------
+Delay:               7.519ns (Levels of Logic = 4)
+  Source:            astb (PAD)
+  Destination:       pdb<6> (PAD)
+
+  Data Path: astb to pdb<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.106   1.060  astb_IBUF (astb_IBUF)
+     LUT2:I0->O            3   0.612   0.603  commUSB_1/busEppOut<3>21 (N22)
+     LUT4:I0->O            1   0.612   0.357  commUSB_1/busEppOut<4>1 (commUSB_1/busEppOut<4>)
+     IOBUF:I->IO               3.169          pdb_4_IOBUF (pdb<4>)
+    ----------------------------------------
+    Total                      7.519ns (5.499ns logic, 2.020ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 74.00 secs
+Total CPU time to Xst completion: 74.72 secs
+ 
+--> 
+
+Total memory usage is 321724 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  429 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

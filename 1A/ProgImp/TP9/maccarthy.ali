@@ -1,0 +1,62 @@
+V "GNAT Lib v4.9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV SPARK_05
+
+U maccarthy%b		maccarthy.adb		696d878f NE OO SU KM
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D maccarthy.adb		20161021083758 daf028e2
+D system.ads		20141119215827 90249111
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+D text_io.ads		20070406091342 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 13|7r6 8r5
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|45] 13|7w10 8r9
+X 8 a-textio.ads
+166U14*New_Line 13|33s6
+X 9 a-tiinio.ads
+65U14*Put 13|32s6[4|18]
+X 13 maccarthy.adb
+10U11*Maccarthy 10b11 35l6 35t15
+18V12 MacCarthyFonc{integer} 18b12 18>28 24s12 24s26 27l7 27t20 32s10
+18i28 Fn{integer} 21r8 22r12 24r40
+19i3 Val{integer} 22m7 24m7 26r12
+31i8 i{integer} 32r24
+X 31 text_io.ads
+24K9*Text_IO=24:29 13|5w6 6r5
+

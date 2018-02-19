@@ -1,0 +1,30 @@
+Nom       : BOUKRAICHI
+Prénom    : Hamza
+Groupe TP : H
+
+
+=====[ Questions ]==============================================================
+
+Indiquer la relation UML entre Cercle et le Point, centre du cercle.
+--------------------------------------------------------------------
+La relation entre Cerlce et Point est une relation d'association.
+
+
+Comment est réalisée l'exigence E18 ?
+-------------------------------------
+L'exigence E18 est réalisé d'une part dans le constructeur en clonant le point 
+(ses coordonnées) représentant le centre pour que la translation de ce point 
+n'entraine pas la translation du centre du cercle ( et du coup du cercle lui même,
+et d'une autre part en effectuant la même chose dans la méthode getCentre() en clonant
+le centre retourné pour que la translation de l'objet retourné ne translate pas le cercle. 
+
+
+
+=====[ Explications ]===========================================================
+
+Les assertions nécessaires sont uniquement sur les rayons et diamètres 
+qui doivent être positifs. Ainsi les constructeurs font l'appel de setRayon
+afin de vérifier les instructions.
+
+Dans l'incapacité de trouver des tests différents de ceux fournis, le fichier
+ComplementsCercleTest.java est vide.

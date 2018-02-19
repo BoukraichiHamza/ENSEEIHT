@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="transactions-et-mémoire-transactionnelle">Transactions et mémoire transactionnelle</h1>
+<p>Cette archive contient - un répertoire <code>StepByStepSimulation</code>, correspondant au shell utile pour les sections 3 et 4 du sujet - un répertoire <code>FullSimulation</code> correspondant au simulateur utile pour la section 5 du sujet</p>
+<h2 id="utilisation-du-shell-stepbystepsimulation">Utilisation du shell (<code>StepByStepSimulation</code>)</h2>
+<ul>
+<li><em>Compilation</em> : <code>make</code></li>
+<li><em>Exécution</em> : <code>make run</code></li>
+</ul>
+<p>Le fichier scenario0 correspond au premier scénario de la section 3, pour le protocole PP.</p>
+<p><em>Remarque</em> : Evitez de soumettre au shell des opérations pour des transactions bloquées. En effet, le shell se comporte de manière douteuse dans le cas où des opérations lui sont soumises pour une transaction bloquée : il les accepte quand même (ce qui est laxiste) puis plante lorsque la transaction est débloquée (ce qui est un vilain bug).</p>
+<h2 id="utilisation-du-simulateur-fullsimulation">Utilisation du simulateur (<code>FullSimulation</code>)</h2>
+<ul>
+<li><em>Compilation</em> : <code>make</code></li>
+<li><em>Exécution</em> : <code>java Main &lt;nom_scénario&gt;</code></li>
+</ul>
+<p>Les fichiers <code>scenario1</code>, <code>scenario2</code> et <code>scenario3</code> correspondent aux scénarios proposés dans la section 5.</p>
+</body>
+</html>

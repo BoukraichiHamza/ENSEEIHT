@@ -1,0 +1,19 @@
+/**
+  * Opérateur unaire correspondant à la négation.
+  *
+  * @author	Xavier Crégut
+  * @version	$Revision$
+  */
+
+public class Negation implements OperateurUnaire {
+	
+ public <R> R accepter(VisiteurExpression<R> visiteur) {
+		return visiteur.visiterNegation(this);
+	}
+
+@Override
+public int getPriorite() {
+	return 1;
+}
+
+}

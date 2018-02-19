@@ -1,0 +1,260 @@
+File ./allumettes/ConfigurationException.java: 21 tokens, 16 lines
+File ./allumettes/Jeu.java: 23 tokens, 26 lines
+File ./allumettes/Arbitre.java: 306 tokens, 77 lines
+File ./allumettes/Strategie.java: 14 tokens, 20 lines (not NL-terminated)
+File ./allumettes/StrategieTricheur.java: 69 tokens, 20 lines
+File ./allumettes/OperationInterditeException.java: 18 tokens, 8 lines
+File ./allumettes/Partie.java: 454 tokens, 108 lines
+File ./allumettes/CoupInvalideException.java: 42 tokens, 34 lines
+File ./allumettes/Joueur.java: 98 tokens, 69 lines
+File ./allumettes/StrategieNaive.java: 72 tokens, 24 lines
+File ./allumettes/StrategieExperte.java: 95 tokens, 33 lines
+File ./allumettes/StrategieHumaine.java: 106 tokens, 31 lines
+File ./allumettes/JeuProxy.java: 58 tokens, 27 lines
+File ./allumettes/JeuAllu.java: 98 tokens, 27 lines
+File ./allumettes/StrategieRapide.java: 46 tokens, 16 lines
+File ./allumettes/TestRapide.java: 420 tokens, 84 lines
+Total: 1940 tokens
+
+./allumettes/TestRapide.java: line 12-43
+./allumettes/TestRapide.java: line 47-78
+<		this.strat = new StrategieRapide();
+<	}
+<
+<	@Test
+<	public void Test1() {
+<		assertEquals("Nombre allumettes restants = 1 -> Tirage = 1", this.strat.getPrise(new JeuAllu(1)), 1);
+<	}
+<
+<	@Test
+<	public void Test2() {
+<		assertEquals("Nombre allumettes restants = 2 -> Tirage = 2", this.strat.getPrise(new JeuAllu(2)), 2);
+<	}
+<
+<	@Test
+<	public void Test3() {
+<		assertEquals("Nombre allumettes restants = 3 -> Tirage = 3", this.strat.getPrise(new JeuAllu(3)), 3);
+<	}
+<
+<	@Test
+<	public void Test4() {
+<		assertEquals("Nombre allumettes restants = 4 -> Tirage = 3", this.strat.getPrise(new JeuAllu(4)), 3);
+<	}
+<
+<	@Test
+<	public void Test5() {
+<		assertEquals("Nombre allumettes restants = 5 -> Tirage = 3", this.strat.getPrise(new JeuAllu(5)), 3);
+<	}
+<
+<	@Test
+<	public void Test6() {
+<		assertEquals("Nombre allumettes restants = 6 -> Tirage = 3", this.strat.getPrise(new JeuAllu(6)), 3);
+<	}
+---
+>		assertEquals("Nombre allumettes restants = 7 -> Tirage = 3", this.strat.getPrise(new JeuAllu(7)), 3);
+>	}
+>
+>	@Test
+>	public void Test8() {
+>		assertEquals("Nombre allumettes restants = 8 -> Tirage = 3", this.strat.getPrise(new JeuAllu(8)), 3);
+>	}
+>
+>	@Test
+>	public void Test9() {
+>		assertEquals("Nombre allumettes restants = 9 -> Tirage = 3", this.strat.getPrise(new JeuAllu(9)), 3);
+>	}
+>
+>	@Test
+>	public void Test10() {
+>		assertEquals("Nombre allumettes restants = 10 -> Tirage = 3", this.strat.getPrise(new JeuAllu(10)), 3);
+>	}
+>
+>	@Test
+>	public void Test11() {
+>		assertEquals("Nombre allumettes restants = 11 -> Tirage = 3", this.strat.getPrise(new JeuAllu(11)), 3);
+>	}
+>
+>	@Test
+>	public void Test12() {
+>		assertEquals("Nombre allumettes restants = 12 -> Tirage = 3", this.strat.getPrise(new JeuAllu(12)), 3);
+>	}
+>
+>	@Test
+>	public void Test13() {
+>		assertEquals("Nombre allumettes restants = 13 -> Tirage = 3", this.strat.getPrise(new JeuAllu(13)), 3);
+>	}
+
+./allumettes/TestRapide.java: line 45-58
+./allumettes/TestRapide.java: line 60-73
+<	@Test
+<	public void Test7() {
+<		assertEquals("Nombre allumettes restants = 7 -> Tirage = 3", this.strat.getPrise(new JeuAllu(7)), 3);
+<	}
+<
+<	@Test
+<	public void Test8() {
+<		assertEquals("Nombre allumettes restants = 8 -> Tirage = 3", this.strat.getPrise(new JeuAllu(8)), 3);
+<	}
+<
+<	@Test
+<	public void Test9() {
+<		assertEquals("Nombre allumettes restants = 9 -> Tirage = 3", this.strat.getPrise(new JeuAllu(9)), 3);
+<	}
+---
+>	@Test
+>	public void Test10() {
+>		assertEquals("Nombre allumettes restants = 10 -> Tirage = 3", this.strat.getPrise(new JeuAllu(10)), 3);
+>	}
+>
+>	@Test
+>	public void Test11() {
+>		assertEquals("Nombre allumettes restants = 11 -> Tirage = 3", this.strat.getPrise(new JeuAllu(11)), 3);
+>	}
+>
+>	@Test
+>	public void Test12() {
+>		assertEquals("Nombre allumettes restants = 12 -> Tirage = 3", this.strat.getPrise(new JeuAllu(12)), 3);
+>	}
+
+./allumettes/TestRapide.java: line 60-68
+./allumettes/TestRapide.java: line 70-78
+<	@Test
+<	public void Test10() {
+<		assertEquals("Nombre allumettes restants = 10 -> Tirage = 3", this.strat.getPrise(new JeuAllu(10)), 3);
+<	}
+<
+<	@Test
+<	public void Test11() {
+<		assertEquals("Nombre allumettes restants = 11 -> Tirage = 3", this.strat.getPrise(new JeuAllu(11)), 3);
+<	}
+---
+>	@Test
+>	public void Test12() {
+>		assertEquals("Nombre allumettes restants = 12 -> Tirage = 3", this.strat.getPrise(new JeuAllu(12)), 3);
+>	}
+>
+>	@Test
+>	public void Test13() {
+>		assertEquals("Nombre allumettes restants = 13 -> Tirage = 3", this.strat.getPrise(new JeuAllu(13)), 3);
+>	}
+
+./allumettes/StrategieNaive.java: line 1-18
+./allumettes/StrategieExperte.java: line 1-17
+<package allumettes;
+<
+<import java.util.Random;
+<
+<public class StrategieNaive implements Strategie {
+<	/* Generateur aléatoire d'entier. */
+<	private Random gen;
+<
+<	public StrategieNaive() {
+<		this.gen = new Random();
+<	}
+<
+<	@Override
+<	public int getPrise(Jeu jeucourant) {
+<		assert jeucourant != null;
+<
+<		/* Récupération de l'interval de tirage possible. */
+<		int max_tirage = Math.min(Jeu.PRISE_MAX, jeucourant.getNombreAllumettes());
+---
+>package allumettes;
+>
+>import java.util.Random;
+>
+>public class StrategieExperte implements Strategie {
+>	/* Generateur aléatoire d'entier. */
+>	private Random gen;
+>
+>	public StrategieExperte() {
+>		this.gen = new Random();
+>	}
+>
+>	@Override
+>	public int getPrise(Jeu jeucourant) {
+>		assert jeucourant != null;
+>
+>		int nbr_allu = jeucourant.getNombreAllumettes();
+
+./allumettes/Partie.java: line 93-97
+./allumettes/Partie.java: line 97-101
+<		if (nomstrategie.equals("naif")) {
+<			strat = new StrategieNaive();
+<		} else if (nomstrategie.equals("expert")) {
+<			strat = new StrategieExperte();
+<		} else if (nomstrategie.equals("humain")) {
+---
+>		} else if (nomstrategie.equals("humain")) {
+>			strat = new StrategieHumaine();
+>		} else if (nomstrategie.equals("rapide")) {
+>			strat = new StrategieRapide();
+>		} else if (nomstrategie.equals("tricheur")) {
+
+./allumettes/TestRapide.java: line 70-73
+./allumettes/TestRapide.java: line 75-78
+<	@Test
+<	public void Test12() {
+<		assertEquals("Nombre allumettes restants = 12 -> Tirage = 3", this.strat.getPrise(new JeuAllu(12)), 3);
+<	}
+---
+>	@Test
+>	public void Test13() {
+>		assertEquals("Nombre allumettes restants = 13 -> Tirage = 3", this.strat.getPrise(new JeuAllu(13)), 3);
+>	}
+
+./allumettes/Arbitre.java: line 1-10
+./allumettes/Joueur.java: line 1-19
+<package allumettes;
+<
+<public class Arbitre {
+<
+<	/* Les joueurs du jeu */
+<	private Joueur joueur1;
+<	private Joueur joueur2;
+<
+<	public Arbitre(Joueur j1, Joueur j2) {
+<		assert j1 != null;
+---
+>package allumettes;
+>
+>public class Joueur {
+>	/* Nom du joueur. */
+>	private String nom;
+>
+>	/* Stratégie du joueur. */
+>	private Strategie strat;
+>
+>	/**
+>	 * Construire un joueur à partir de son nom et de sa stratégie.
+>	 * 
+>	 * @param name
+>	 *            : nom du joueur
+>	 * @param strategy
+>	 *            du joueur
+>	 */
+>	public Joueur(String name, Strategie strategy) {
+>		assert strategy != null;
+
+./allumettes/StrategieTricheur.java: line 1-9
+./allumettes/StrategieRapide.java: line 1-9
+<package allumettes;
+<
+<public class StrategieTricheur implements Strategie {
+<
+<	public StrategieTricheur() {
+<	};
+<
+<	@Override
+<	public int getPrise(Jeu jeucourant) {
+---
+>package allumettes;
+>
+>public class StrategieRapide implements Strategie {
+>
+>	public StrategieRapide() {
+>	}
+>
+>	@Override
+>	public int getPrise(Jeu jeucourant) {
+

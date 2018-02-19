@@ -1,0 +1,131 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+namespace menu {
+
+	class Menu {
+		- selection: Commande
+		--
+		+ estQuitté(): boolean
+		+ afficher()
+		+ selectionner()
+		+ valider()
+		+ ajouter(txt: String, op: Commande)
+	}
+
+	note top of Menu
+	afficher():
+		for(int i = 0; i < entrees.size(); i++):
+			entrees.get(i).afficher(i + 1)
+
+	selectionner():
+		-- demander un entier et
+		-- initialiser 'selection' avec la commande associée
+
+	valider():
+		if (selection.estExecutable()):
+			selection.executer()
+		else:
+			out.println("Opération impossible")
+	end note
+
+	class Entree {
+		- texte: String
+		--
+		+ afficher(numéro: int)
+		__constructeurs__
+		+ Entree(texte: String, op: Commande)
+	}
+
+	note top of Entree
+		afficher(numéro: int):
+			if (opération.estExecutable):
+				out.print(numéro)
+			else:
+				out.print(" ")
+			out.print(") " + texte)
+	end note
+
+	interface Commande {
+		--
+		+ estExecutable(): boolean
+		+ executer()
+	}
+
+	Menu *-right-> "*\nentree"  Entree: "          "
+	Entree o-right-> "1\noperation" Commande: "               "
+
+}
+
+class Editeur {
+	--
+	+ editer()
+	__constructeurs__
+	+ Editeur(l: Ligne)
+}
+
+note left of Editeur {
+	editer():
+		do:
+			ligne.afficher()
+			menuPrincipal.afficher()
+			menuPrincipal.sélectionner()
+			menuPrincipal.valider()
+		while (! estQuitté())
+
+	Editeur(l: Ligne):
+		this.ligne = l
+		this.menuPrincipal = new Menu()
+		this.menuPrincipal.ajouter("Avancer curseur",
+			new AvancerCurseur(l))
+		this.menuPrincipal.ajouter("Reculer curseur",
+			new ReculerCurseur(l))
+}
+
+Editeur o-down-> "1\nligne" Ligne: "          "
+Editeur *-up-> "1\nmenuPrincipal" menu.Menu: "                    "
+
+interface Ligne {
+}
+
+class LigneTab implements Ligne {
+}
+
+
+abstract class CommandeLigne implements menu.Commande {
+	__constructeurs__
+	CommandeLigne(l: Ligne)
+}
+
+CommandeLigne o-left-> Ligne: "                                                            "
+
+class AvancerCurseur extends CommandeLigne {
+	+ estExecutable(): boolean
+	+ executer()
+}
+
+note bottom of AvancerCurseur
+	estExecutable(): boolean:
+		return ligne.getCurseur() < ligne.getLongueur()
+
+	executer():
+		ligne.avancer()
+end note
+
+class ReculerCurseur extends CommandeLigne {
+	+ estExecutable(): boolean
+	+ executer()
+}
+
+note bottom of ReculerCurseur
+	estExecutable(): boolean:
+		return ligne.getCurseur() > 1
+
+	executer():
+		ligne.reculer()
+end note
+
+
+
+@enduml
+' vim: sw=4 ts=4:

@@ -1,0 +1,4 @@
+module shift4 (r,en, e[31..0] : s[31..0])
+   shift2 (r,en, e[31..0] : s0[31..0]);
+   shift2 (r,en, s0[31..0] : s[31..0]);
+end module

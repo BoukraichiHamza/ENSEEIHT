@@ -1,0 +1,24 @@
+
+(* Factorielle : Algorithme descendant *)
+
+module FactorielleDescendant
+
+  use import int.Int
+  use import int.Fact
+  use import ref.Refint
+
+  let factorielle (n: int) : int
+    requires { 0 <= n }
+    ensures  { result = (fact n) }
+  =
+    let i = ref n in
+    let r = ref 1 in
+    while  (0 < !i) do
+      invariant { !r*fact(!i)= fact(n)&& (0 <= !i <= n) }
+      variant   { !i }
+      r := !i * !r;
+      i := !i - 1
+    done;
+    !r
+
+end

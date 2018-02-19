@@ -1,0 +1,35 @@
+iMPACT Version: Oct 13 2013 10:01:22
+
+iMPACT log file Started on Wed Dec 07 16:53:22 2016
+
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoInfer            false               
+SvfPlayDisplayComments false               
+'1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+'1': Loading file 'craps0.bit' ...
+INFO:iMPACT - Elapsed time =      0 sec.
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'Cclk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+Dumping bit file craps0_cclktemp.bit...
+INFO:iMPACT:501 - '1': Added Device xc3s1200e successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+0x75394 (480148) bytes loaded up from 0x0
+Using user-specified prom size of 512K
+Writing file "craps0.mcs".
+Writing file "craps0.prm".
+Writing file "craps0.sig".
+Writing file "craps0.cfi".
